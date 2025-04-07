@@ -1,0 +1,343 @@
+2025-04-08 00:16:12,101 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-08 00:16:12,248 - research - INFO - Starting research for query: 學術文獻綜述：黴菌論文
+2025-04-08 00:16:12,249 - research - INFO - Using web search
+2025-04-08 00:16:12,249 - research - INFO - Starting web search for query: 學術文獻綜述：黴菌論文
+2025-04-08 00:16:12,249 - research - INFO - Planning research for query: 學術文獻綜述：黴菌論文
+2025-04-08 00:16:14,929 - research - INFO - Initial search results obtained: 10 results
+2025-04-08 00:16:40,561 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-08 00:16:40,566 - research - INFO - Research outline planned: ['學術文獻綜述 黴菌 論文 系統性回顧 2020-2025', '黴菌感染 臨床 抗黴菌藥物 抗藥性 文獻回顧', '黴菌 生長競爭 分子生物技術 與 生態互動 系統性文獻綜述']
+2025-04-08 00:16:40,566 - research - INFO - Generated sub-queries: ['學術文獻綜述 黴菌 論文 系統性回顧 2020-2025', '黴菌感染 臨床 抗黴菌藥物 抗藥性 文獻回顧', '黴菌 生長競爭 分子生物技術 與 生態互動 系統性文獻綜述']
+2025-04-08 00:16:42,968 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 00:16:42,968 - gpt_researcher.scraper.scraper - INFO - 
+=== Using PyMuPDFScraper ===
+2025-04-08 00:16:42,968 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 00:16:42,969 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 00:16:42,969 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 00:16:43,229 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 00:16:43,229 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 00:16:43,229 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 00:16:43,230 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 00:16:43,230 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 00:16:43,248 - gpt_researcher.scraper.scraper - INFO - 
+Title: 黴漿菌抗藥性達7成！連兒童都用上二線藥　醫提診間「關鍵三問」 | ETtoday健康雲 | ETtoday新聞雲
+2025-04-08 00:16:43,248 - gpt_researcher.scraper.scraper - INFO - Content length: 2887 characters
+2025-04-08 00:16:43,248 - gpt_researcher.scraper.scraper - INFO - Number of images: 10
+2025-04-08 00:16:43,248 - gpt_researcher.scraper.scraper - INFO - URL: https://health.ettoday.net/news/2839684
+2025-04-08 00:16:43,248 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 00:16:43,358 - gpt_researcher.scraper.scraper - INFO - 
+=== Using PyMuPDFScraper ===
+2025-04-08 00:16:43,358 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 00:16:43,359 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 00:16:43,397 - gpt_researcher.scraper.scraper - INFO - 
+Title: ....1-p115-123
+2025-04-08 00:16:43,397 - gpt_researcher.scraper.scraper - INFO - Content length: 455 characters
+2025-04-08 00:16:43,398 - gpt_researcher.scraper.scraper - INFO - Number of images: 0
+2025-04-08 00:16:43,398 - gpt_researcher.scraper.scraper - INFO - URL: https://www.cdc.gov.tw/Uploads/archives/267f2181-1a4d-4480-b898-65f83aaa5395.pdf
+2025-04-08 00:16:43,398 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 00:16:43,404 - gpt_researcher.scraper.scraper - INFO - 
+Title: 黴漿菌抗藥性高達6成～100%，如何防止黴漿菌對抗生素產生抗藥性？ - 康健雜誌
+2025-04-08 00:16:43,404 - gpt_researcher.scraper.scraper - INFO - Content length: 2951 characters
+2025-04-08 00:16:43,404 - gpt_researcher.scraper.scraper - INFO - Number of images: 5
+2025-04-08 00:16:43,404 - gpt_researcher.scraper.scraper - INFO - URL: https://www.commonhealth.com.tw/article/89054
+2025-04-08 00:16:43,404 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 00:16:43,455 - gpt_researcher.scraper.scraper - INFO - 
+=== Using PyMuPDFScraper ===
+2025-04-08 00:16:43,455 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 00:16:43,456 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 00:16:43,456 - gpt_researcher.scraper.scraper - INFO - 
+=== Using PyMuPDFScraper ===
+2025-04-08 00:16:43,527 - gpt_researcher.scraper.scraper - WARNING - Content too short or empty for https://nics.org.tw/magazine.php?ipage=11
+2025-04-08 00:16:43,544 - gpt_researcher.scraper.scraper - INFO - 
+Title: 國立成功大學圖書館
+2025-04-08 00:16:43,544 - gpt_researcher.scraper.scraper - INFO - Content length: 297 characters
+2025-04-08 00:16:43,544 - gpt_researcher.scraper.scraper - INFO - Number of images: 2
+2025-04-08 00:16:43,544 - gpt_researcher.scraper.scraper - INFO - URL: https://www.lib.ncku.edu.tw/using/activities/ChatGPT/sr.php
+2025-04-08 00:16:43,544 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 00:16:43,774 - gpt_researcher.scraper.scraper - INFO - 
+Title: 
+2025-04-08 00:16:43,774 - gpt_researcher.scraper.scraper - INFO - Content length: 1011 characters
+2025-04-08 00:16:43,774 - gpt_researcher.scraper.scraper - INFO - Number of images: 0
+2025-04-08 00:16:43,774 - gpt_researcher.scraper.scraper - INFO - URL: https://www.cdc.gov.tw/Uploads/archives/cf580d52-bc24-42b1-a93f-204df640b5cd.pdf
+2025-04-08 00:16:43,774 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 00:16:43,788 - gpt_researcher.scraper.scraper - INFO - 
+Title: 抗微生物製劑抗藥性之挑戰與因應策略 = Challenges and Countermeasures of Antimicrobial Resistance｜Airiti Library 華藝線上圖書館
+2025-04-08 00:16:43,788 - gpt_researcher.scraper.scraper - INFO - Content length: 2346 characters
+2025-04-08 00:16:43,788 - gpt_researcher.scraper.scraper - INFO - Number of images: 1
+2025-04-08 00:16:43,788 - gpt_researcher.scraper.scraper - INFO - URL: https://www.airitilibrary.com/Article/Detail/a0000532-N202411200001-00009
+2025-04-08 00:16:43,788 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 00:16:43,864 - gpt_researcher.scraper.scraper - INFO - 
+Title: Google 學術搜尋
+2025-04-08 00:16:43,864 - gpt_researcher.scraper.scraper - INFO - Content length: 777 characters
+2025-04-08 00:16:43,864 - gpt_researcher.scraper.scraper - INFO - Number of images: 1
+2025-04-08 00:16:43,864 - gpt_researcher.scraper.scraper - INFO - URL: https://scholar.google.com.tw/?hl=zh-TW
+2025-04-08 00:16:43,864 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 00:16:43,949 - gpt_researcher.scraper.scraper - INFO - 
+Title: 國立成功大學機構典藏:Item 987654321/246148
+2025-04-08 00:16:43,949 - gpt_researcher.scraper.scraper - INFO - Content length: 3721 characters
+2025-04-08 00:16:43,949 - gpt_researcher.scraper.scraper - INFO - Number of images: 4
+2025-04-08 00:16:43,949 - gpt_researcher.scraper.scraper - INFO - URL: https://nckur.lib.ncku.edu.tw/handle/987654321/246148
+2025-04-08 00:16:43,949 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 00:16:43,963 - gpt_researcher.scraper.scraper - INFO - 
+Title: 微生物與健康產業：黴菌與健康|最新文章 - 科技大觀園
+2025-04-08 00:16:43,963 - gpt_researcher.scraper.scraper - INFO - Content length: 4080 characters
+2025-04-08 00:16:43,963 - gpt_researcher.scraper.scraper - INFO - Number of images: 10
+2025-04-08 00:16:43,963 - gpt_researcher.scraper.scraper - INFO - URL: https://scitechvista.nat.gov.tw/Article/C000003/detail?ID=619f7e40-efdd-48d4-a6fe-a1714b15d660
+2025-04-08 00:16:43,963 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 00:16:43,969 - gpt_researcher.scraper.scraper - INFO - 
+Title: Google 学术搜索
+2025-04-08 00:16:43,969 - gpt_researcher.scraper.scraper - INFO - Content length: 755 characters
+2025-04-08 00:16:43,969 - gpt_researcher.scraper.scraper - INFO - Number of images: 1
+2025-04-08 00:16:43,969 - gpt_researcher.scraper.scraper - INFO - URL: https://scholar.google.com.hk/?hl=zh-CN
+2025-04-08 00:16:43,969 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 00:16:44,260 - gpt_researcher.scraper.scraper - INFO - 
+Title: 
+2025-04-08 00:16:44,260 - gpt_researcher.scraper.scraper - INFO - Content length: 866 characters
+2025-04-08 00:16:44,260 - gpt_researcher.scraper.scraper - INFO - Number of images: 0
+2025-04-08 00:16:44,260 - gpt_researcher.scraper.scraper - INFO - URL: https://www.cdc.gov.tw/Uploads/archives/0d17a906-acb6-4f69-8bb5-f6dc966f0acf.pdf
+2025-04-08 00:16:44,260 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 00:16:44,330 - gpt_researcher.scraper.scraper - INFO - 
+Title: 
+		
+		
+			
+			期刊篇目查詢-詳情
+		
+	
+2025-04-08 00:16:44,330 - gpt_researcher.scraper.scraper - INFO - Content length: 1614 characters
+2025-04-08 00:16:44,330 - gpt_researcher.scraper.scraper - INFO - Number of images: 1
+2025-04-08 00:16:44,330 - gpt_researcher.scraper.scraper - INFO - URL: https://tpl.ncl.edu.tw/NclService/JournalContentDetail?SysId=A12021651
+2025-04-08 00:16:44,330 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 00:16:44,667 - gpt_researcher.scraper.scraper - INFO - 
+Title: Google 學術搜尋
+2025-04-08 00:16:44,667 - gpt_researcher.scraper.scraper - INFO - Content length: 777 characters
+2025-04-08 00:16:44,667 - gpt_researcher.scraper.scraper - INFO - Number of images: 1
+2025-04-08 00:16:44,667 - gpt_researcher.scraper.scraper - INFO - URL: https://scholar.google.com/
+2025-04-08 00:16:44,667 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 00:16:44,670 - research - INFO - Scraped data size: 4
+2025-04-08 00:16:44,820 - gpt_researcher.scraper.scraper - INFO - 
+Title: 微生物體引領生態革命 解鎖農業、環境、公衛新未來-環球生技月刊
+2025-04-08 00:16:44,820 - gpt_researcher.scraper.scraper - INFO - Content length: 2561 characters
+2025-04-08 00:16:44,820 - gpt_researcher.scraper.scraper - INFO - Number of images: 10
+2025-04-08 00:16:44,820 - gpt_researcher.scraper.scraper - INFO - URL: https://news.gbimonthly.com/tw/article/show.php?num=73926
+2025-04-08 00:16:44,820 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 00:16:44,822 - research - INFO - Scraped data size: 4
+2025-04-08 00:16:45,079 - gpt_researcher.scraper.scraper - INFO - 
+Title: 壹
+2025-04-08 00:16:45,079 - gpt_researcher.scraper.scraper - INFO - Content length: 113 characters
+2025-04-08 00:16:45,079 - gpt_researcher.scraper.scraper - INFO - Number of images: 0
+2025-04-08 00:16:45,079 - gpt_researcher.scraper.scraper - INFO - URL: https://www.mxeduc.org.tw/scienceaward/history/projectDoc/6th/doc/SA6-090_final.pdf
+2025-04-08 00:16:45,079 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 00:16:45,081 - research - INFO - Scraped data size: 3
+2025-04-08 00:16:45,144 - gpt_researcher.scraper.scraper - INFO - 
+Title: 
+	抗生素抗藥性問題引發全球警報臺灣該如何應對？ - 科學月刊Science Monthly
+
+2025-04-08 00:16:45,144 - gpt_researcher.scraper.scraper - INFO - Content length: 6380 characters
+2025-04-08 00:16:45,144 - gpt_researcher.scraper.scraper - INFO - Number of images: 10
+2025-04-08 00:16:45,144 - gpt_researcher.scraper.scraper - INFO - URL: https://www.scimonth.com.tw/archives/11300
+2025-04-08 00:16:45,144 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 00:16:45,146 - research - INFO - Scraped data size: 5
+2025-04-08 00:16:45,767 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-08 00:16:46,130 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-08 00:16:46,445 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-08 00:16:46,508 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-08 00:16:46,511 - research - INFO - Content found for sub-query: 3721 chars
+2025-04-08 00:16:46,717 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-08 00:16:47,604 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-08 00:16:47,605 - research - INFO - Content found for sub-query: 9327 chars
+2025-04-08 00:16:48,249 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-08 00:16:48,251 - research - INFO - Content found for sub-query: 9761 chars
+2025-04-08 00:16:48,313 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-08 00:16:48,315 - research - INFO - Content found for sub-query: 2199 chars
+2025-04-08 00:16:48,315 - research - INFO - Gathered context from 4 sub-queries
+2025-04-08 00:16:48,315 - research - INFO - Combined context size: 25011
+2025-04-08 00:16:48,316 - research - INFO - Research completed. Context size: 25011
+2025-04-08 00:16:50,389 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-08 00:17:54,483 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-08 00:19:27,150 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-08 00:19:27,156 - research - INFO - Starting research for query: 學術概念解析：2024年到2025年的黴菌相關學術論文Arxic
+2025-04-08 00:19:27,157 - research - INFO - Using web search
+2025-04-08 00:19:27,157 - research - INFO - Starting web search for query: 學術概念解析：2024年到2025年的黴菌相關學術論文Arxic
+2025-04-08 00:19:27,157 - research - INFO - Planning research for query: 學術概念解析：2024年到2025年的黴菌相關學術論文Arxic
+2025-04-08 00:19:32,397 - research - INFO - Initial search results obtained: 10 results
+2025-04-08 00:19:32,410 - backend.server.server_utils - INFO - Task cancelled.
+2025-04-08 00:19:43,767 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-08 00:19:43,775 - research - INFO - Starting research for query: 學術概念解析：2024年到2025年的黴菌相關學術論文Arxiv
+2025-04-08 00:19:43,776 - research - INFO - Using web search
+2025-04-08 00:19:43,776 - research - INFO - Starting web search for query: 學術概念解析：2024年到2025年的黴菌相關學術論文Arxiv
+2025-04-08 00:19:43,776 - research - INFO - Planning research for query: 學術概念解析：2024年到2025年的黴菌相關學術論文Arxiv
+2025-04-08 00:19:46,228 - research - INFO - Initial search results obtained: 10 results
+2025-04-08 00:20:06,868 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-08 00:20:06,873 - research - INFO - Research outline planned: ['site:arxiv.org 黴菌 2024 2025 學術論文', '黴菌 研究 arxiv 2024 到 2025', '2024 到 2025 年 arxiv 黴菌 學術概念解析 論文']
+2025-04-08 00:20:06,873 - research - INFO - Generated sub-queries: ['site:arxiv.org 黴菌 2024 2025 學術論文', '黴菌 研究 arxiv 2024 到 2025', '2024 到 2025 年 arxiv 黴菌 學術概念解析 論文']
+2025-04-08 00:20:09,071 - gpt_researcher.scraper.scraper - INFO - 
+=== Using ArxivScraper ===
+2025-04-08 00:20:09,071 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 00:20:09,072 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=2503.21214&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2025-04-08 00:20:09,072 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 00:20:09,072 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 00:20:09,073 - gpt_researcher.scraper.scraper - INFO - 
+=== Using ArxivScraper ===
+2025-04-08 00:20:09,073 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2025-04-08 00:20:09,177 - gpt_researcher.scraper.scraper - WARNING - Content too short or empty for https://ejournal.press.ntu.edu.tw/
+2025-04-08 00:20:09,436 - gpt_researcher.scraper.scraper - INFO - 
+Title: 臺北榮民總醫院感染科 - 期刊發表
+2025-04-08 00:20:09,436 - gpt_researcher.scraper.scraper - INFO - Content length: 6605 characters
+2025-04-08 00:20:09,436 - gpt_researcher.scraper.scraper - INFO - Number of images: 0
+2025-04-08 00:20:09,436 - gpt_researcher.scraper.scraper - INFO - URL: https://wd.vghtpe.gov.tw/inf/Fpage.action?muid=14916&fid=13659
+2025-04-08 00:20:09,436 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 00:20:09,528 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 00:20:09,528 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 00:20:09,528 - gpt_researcher.scraper.scraper - INFO - 
+=== Using ArxivScraper ===
+2025-04-08 00:20:09,529 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 00:20:09,529 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=2503.05768&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2025-04-08 00:20:09,742 - gpt_researcher.scraper.scraper - INFO - 
+=== Using ArxivScraper ===
+2025-04-08 00:20:09,742 - gpt_researcher.scraper.scraper - INFO - 
+=== Using ArxivScraper ===
+2025-04-08 00:20:09,742 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=2502.13242&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2025-04-08 00:20:09,743 - gpt_researcher.scraper.scraper - INFO - 
+=== Using ArxivScraper ===
+2025-04-08 00:20:09,743 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=2503.04594&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2025-04-08 00:20:09,743 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=2503.15594&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2025-04-08 00:20:09,743 - gpt_researcher.scraper.scraper - INFO - 
+=== Using ArxivScraper ===
+2025-04-08 00:20:09,744 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=%3Flocale%3Dzh_CN&id_list=&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2025-04-08 00:20:09,744 - gpt_researcher.scraper.scraper - INFO - 
+=== Using ArxivScraper ===
+2025-04-08 00:20:09,744 - arxiv - INFO - Requesting page (first: True, try: 0): https://export.arxiv.org/api/query?search_query=&id_list=2504.00324&sortBy=relevance&sortOrder=descending&start=0&max_results=100
+2025-04-08 00:20:10,101 - gpt_researcher.scraper.scraper - INFO - 
+Title: 研究主題 – 台灣黴菌實驗中心
+2025-04-08 00:20:10,101 - gpt_researcher.scraper.scraper - INFO - Content length: 553 characters
+2025-04-08 00:20:10,101 - gpt_researcher.scraper.scraper - INFO - Number of images: 0
+2025-04-08 00:20:10,101 - gpt_researcher.scraper.scraper - INFO - URL: https://mycology.nhri.edu.tw/research-topics/
+2025-04-08 00:20:10,101 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 00:20:10,183 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 00:20:10,183 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 00:20:10,184 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 00:20:10,265 - gpt_researcher.scraper.scraper - INFO - 
+Title: Access Denied
+2025-04-08 00:20:10,265 - gpt_researcher.scraper.scraper - INFO - Content length: 244 characters
+2025-04-08 00:20:10,265 - gpt_researcher.scraper.scraper - INFO - Number of images: 0
+2025-04-08 00:20:10,265 - gpt_researcher.scraper.scraper - INFO - URL: https://www.mdpi.com/journal/life/special_issues/437133AE7Z
+2025-04-08 00:20:10,265 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 00:20:10,276 - arxiv - INFO - Got empty first page; stopping generation
+2025-04-08 00:20:10,276 - gpt_researcher.scraper.scraper - ERROR - Error processing https://arxiv.org/: list index out of range
+2025-04-08 00:20:10,295 - arxiv - INFO - Got first page: 1 of 1 total results
+2025-04-08 00:20:10,295 - gpt_researcher.scraper.scraper - INFO - 
+Title: VoxRep: Enhancing 3D Spatial Understanding in 2D Vision-Language Models via Voxel Representation
+2025-04-08 00:20:10,296 - gpt_researcher.scraper.scraper - INFO - Content length: 1052 characters
+2025-04-08 00:20:10,296 - gpt_researcher.scraper.scraper - INFO - Number of images: 0
+2025-04-08 00:20:10,296 - gpt_researcher.scraper.scraper - INFO - URL: https://arxiv.org/pdf/2503.21214
+2025-04-08 00:20:10,296 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 00:20:10,297 - research - INFO - Scraped data size: 3
+2025-04-08 00:20:10,373 - gpt_researcher.scraper.scraper - INFO - 
+Title: 【2024年10月公開 Arxiv論文ランキング】2410.xxxxx #arXiv - Qiita
+2025-04-08 00:20:10,373 - gpt_researcher.scraper.scraper - INFO - Content length: 15885 characters
+2025-04-08 00:20:10,373 - gpt_researcher.scraper.scraper - INFO - Number of images: 10
+2025-04-08 00:20:10,373 - gpt_researcher.scraper.scraper - INFO - URL: https://qiita.com/compassinai/items/d497e2885cd7e7b9ba59
+2025-04-08 00:20:10,373 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 00:20:10,411 - gpt_researcher.scraper.scraper - INFO - 
+Title: TAIWAN MMTN
+2025-04-08 00:20:10,412 - gpt_researcher.scraper.scraper - INFO - Content length: 407 characters
+2025-04-08 00:20:10,412 - gpt_researcher.scraper.scraper - INFO - Number of images: 10
+2025-04-08 00:20:10,412 - gpt_researcher.scraper.scraper - INFO - URL: http://taiwanmmtn.org/
+2025-04-08 00:20:10,412 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 00:20:10,415 - gpt_researcher.scraper.scraper - INFO - 
+Title: 台灣黴菌實驗中心 – Taiwan Mycology Reference Center
+2025-04-08 00:20:10,415 - gpt_researcher.scraper.scraper - INFO - Content length: 1722 characters
+2025-04-08 00:20:10,415 - gpt_researcher.scraper.scraper - INFO - Number of images: 0
+2025-04-08 00:20:10,415 - gpt_researcher.scraper.scraper - INFO - URL: https://mycology.nhri.edu.tw/
+2025-04-08 00:20:10,415 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 00:20:10,417 - research - INFO - Scraped data size: 3
+2025-04-08 00:20:10,684 - arxiv - INFO - Got first page: 1 of 1 total results
+2025-04-08 00:20:10,684 - gpt_researcher.scraper.scraper - INFO - 
+Title: A Collection of Innovations in Medical AI for patient records in 2024
+2025-04-08 00:20:10,684 - gpt_researcher.scraper.scraper - INFO - Content length: 1114 characters
+2025-04-08 00:20:10,684 - gpt_researcher.scraper.scraper - INFO - Number of images: 0
+2025-04-08 00:20:10,684 - gpt_researcher.scraper.scraper - INFO - URL: https://arxiv.org/abs/2503.05768
+2025-04-08 00:20:10,684 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 00:20:10,810 - gpt_researcher.scraper.scraper - INFO - 
+Title: Google 學術搜尋
+2025-04-08 00:20:10,810 - gpt_researcher.scraper.scraper - INFO - Content length: 777 characters
+2025-04-08 00:20:10,810 - gpt_researcher.scraper.scraper - INFO - Number of images: 1
+2025-04-08 00:20:10,810 - gpt_researcher.scraper.scraper - INFO - URL: https://scholar.google.com.tw/?hl=zh-TW
+2025-04-08 00:20:10,811 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 00:20:10,908 - arxiv - INFO - Got first page: 1 of 1 total results
+2025-04-08 00:20:10,908 - gpt_researcher.scraper.scraper - INFO - 
+Title: VLBA Detections in the Oph-S1 Binary System near Periastron Confirmation of its Orbital Elements and Mass
+2025-04-08 00:20:10,908 - gpt_researcher.scraper.scraper - INFO - Content length: 1137 characters
+2025-04-08 00:20:10,908 - gpt_researcher.scraper.scraper - INFO - Number of images: 0
+2025-04-08 00:20:10,908 - gpt_researcher.scraper.scraper - INFO - URL: https://arxiv.org/pdf/2503.04594
+2025-04-08 00:20:10,908 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 00:20:10,909 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-08 00:20:10,913 - arxiv - INFO - Got empty first page; stopping generation
+2025-04-08 00:20:10,914 - gpt_researcher.scraper.scraper - ERROR - Error processing https://arxiv.org/?locale=zh_CN: list index out of range
+2025-04-08 00:20:10,915 - arxiv - INFO - Got first page: 1 of 1 total results
+2025-04-08 00:20:10,915 - gpt_researcher.scraper.scraper - INFO - 
+Title: Learning the Universe: $3\ h^{-1}{\rm Gpc}$ Tests of a Field Level $N$-body Simulation Emulator
+2025-04-08 00:20:10,915 - gpt_researcher.scraper.scraper - INFO - Content length: 1924 characters
+2025-04-08 00:20:10,915 - gpt_researcher.scraper.scraper - INFO - Number of images: 0
+2025-04-08 00:20:10,915 - gpt_researcher.scraper.scraper - INFO - URL: https://arxiv.org/pdf/2502.13242
+2025-04-08 00:20:10,915 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 00:20:10,933 - arxiv - INFO - Got first page: 1 of 1 total results
+2025-04-08 00:20:10,933 - gpt_researcher.scraper.scraper - INFO - 
+Title: The rise of the galactic empire: luminosity functions at $z\sim17$ and $z\sim25$ estimated with the MIDIS$+$NGDEEP ultra-deep JWST/NIRCam dataset
+2025-04-08 00:20:10,933 - gpt_researcher.scraper.scraper - INFO - Content length: 2584 characters
+2025-04-08 00:20:10,933 - gpt_researcher.scraper.scraper - INFO - Number of images: 0
+2025-04-08 00:20:10,933 - gpt_researcher.scraper.scraper - INFO - URL: https://arxiv.org/pdf/2503.15594
+2025-04-08 00:20:10,933 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 00:20:10,978 - arxiv - INFO - Got first page: 1 of 1 total results
+2025-04-08 00:20:10,978 - gpt_researcher.scraper.scraper - INFO - 
+Title: Atmospheric absorption of dark matter
+2025-04-08 00:20:10,978 - gpt_researcher.scraper.scraper - INFO - Content length: 950 characters
+2025-04-08 00:20:10,978 - gpt_researcher.scraper.scraper - INFO - Number of images: 0
+2025-04-08 00:20:10,978 - gpt_researcher.scraper.scraper - INFO - URL: https://arxiv.org/pdf/2504.00324
+2025-04-08 00:20:10,978 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 00:20:10,980 - research - INFO - Scraped data size: 4
+2025-04-08 00:20:11,111 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-08 00:20:11,508 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-08 00:20:11,630 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-08 00:20:11,632 - research - INFO - Content found for sub-query: 2388 chars
+2025-04-08 00:20:12,125 - gpt_researcher.scraper.scraper - INFO - 
+Title: Explore | alphaXiv
+2025-04-08 00:20:12,126 - gpt_researcher.scraper.scraper - INFO - Content length: 6856 characters
+2025-04-08 00:20:12,126 - gpt_researcher.scraper.scraper - INFO - Number of images: 10
+2025-04-08 00:20:12,126 - gpt_researcher.scraper.scraper - INFO - URL: https://www.alphaxiv.org/
+2025-04-08 00:20:12,126 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 00:20:12,128 - research - INFO - Scraped data size: 4
+2025-04-08 00:20:12,269 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-08 00:20:12,270 - research - INFO - Content found for sub-query: 0 chars
+2025-04-08 00:20:12,312 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-08 00:20:12,313 - research - INFO - Content found for sub-query: 8247 chars
+2025-04-08 00:20:12,959 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-08 00:20:14,271 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-08 00:20:14,277 - research - INFO - Content found for sub-query: 1092 chars
+2025-04-08 00:20:14,277 - research - INFO - Gathered context from 4 sub-queries
+2025-04-08 00:20:14,277 - research - INFO - Combined context size: 11729
+2025-04-08 00:20:14,279 - research - INFO - Research completed. Context size: 11729
+2025-04-08 00:20:15,625 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-08 00:20:43,483 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"

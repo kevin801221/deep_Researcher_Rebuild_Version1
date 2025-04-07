@@ -1,0 +1,52 @@
+{
+  "timestamp": "2025-04-08T00:19:25.096011",
+  "events": [
+    {
+      "timestamp": "2025-04-08T00:19:27.156998",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "starting_research",
+        "output": "\ud83d\udd0d Starting the research task for '\u5b78\u8853\u6982\u5ff5\u89e3\u6790\uff1a2024\u5e74\u52302025\u5e74\u7684\u9ef4\u83cc\u76f8\u95dc\u5b78\u8853\u8ad6\u6587Arxic'...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-08T00:19:27.157273",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "agent_generated",
+        "output": "\ud83d\udcda Academic Research Agent",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-08T00:19:27.157527",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "planning_research",
+        "output": "\ud83c\udf10 Browsing the web to learn more about the task: \u5b78\u8853\u6982\u5ff5\u89e3\u6790\uff1a2024\u5e74\u52302025\u5e74\u7684\u9ef4\u83cc\u76f8\u95dc\u5b78\u8853\u8ad6\u6587Arxic...",
+        "metadata": null
+      }
+    },
+    {
+      "timestamp": "2025-04-08T00:19:32.397864",
+      "type": "event",
+      "data": {
+        "type": "logs",
+        "content": "planning_research",
+        "output": "\ud83e\udd14 Planning the research strategy and subtasks...",
+        "metadata": null
+      }
+    }
+  ],
+  "content": {
+    "query": "",
+    "sources": [],
+    "context": [],
+    "report": "",
+    "costs": 0.0
+  }
+}

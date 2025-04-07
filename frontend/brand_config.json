@@ -1,0 +1,28 @@
+{
+  "appName": "YCM 研究助理",
+  "companyName": "YCM 學術研究所",
+  "logoPath": "/logo.png",
+  "primaryColor": "#1e40af",
+  "secondaryColor": "#3b82f6",
+  "fontFamily": "'Noto Sans TC', sans-serif",
+  "defaultLanguage": "zh-TW",
+  "contactEmail": "support@yourcompany.com",
+  "footerText": "© 2025 您的公司名稱 - 版權所有",
+  "socialLinks": {
+    "facebook": "https://facebook.com/yourcompany",
+    "twitter": "https://twitter.com/yourcompany",
+    "linkedin": "https://linkedin.com/company/yourcompany"
+  },
+  "features": {
+    "enableDeepResearch": true,
+    "enableLocalDocuments": true,
+    "enableEmailReports": false,
+    "enableCustomRetriever": true,
+    "maxReportLength": 5000
+  },
+  "defaultSettings": {
+    "reportType": "research_report",
+    "tone": "Objective",
+    "reportSource": "web"
+  }
+}
