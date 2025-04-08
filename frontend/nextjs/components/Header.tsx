@@ -43,6 +43,9 @@ const Header = ({ loading, isStopped, showResult, onStop, onNewResearch }: Heade
             <Link href="/presentation" className="text-blue-900 hover:text-blue-700 font-medium">
               系統簡介
             </Link>
+            <Link href="/tech" className="text-blue-900 hover:text-blue-700 font-medium">
+              技術簡報
+            </Link>
           </div>
           
           {/* Action buttons container */}

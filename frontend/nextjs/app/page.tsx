@@ -3,6 +3,7 @@
 import { useRef, useState, useEffect, useCallback } from "react";
 import { useWebSocket } from '@/hooks/useWebSocket';
 import { useResearchHistory } from '@/hooks/useResearchHistory';
+import { getHost } from '../helpers/getHost';
 import { startLanggraphResearch } from '../components/Langgraph/Langgraph';
 import findDifferences from '../helpers/findDifferences';
 import { Data, ChatBoxSettings, QuestionData } from '../types/data';
@@ -47,12 +48,15 @@ export default function Home() {
     deleteResearch 
   } = useResearchHistory();
 
+  const apiUrl = typeof window !== 'undefined' ? getHost() : 'http://localhost:8000';
+  
   const { socket, initializeWebSocket } = useWebSocket(
     setOrderedData,
     setAnswer,
     setLoading,
     setShowHumanFeedback,
-    setQuestionForHuman
+    setQuestionForHuman,
+    apiUrl
   );
 
   const handleFeedbackSubmit = (feedback: string | null) => {

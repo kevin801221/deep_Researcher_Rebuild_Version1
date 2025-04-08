@@ -1,0 +1,38 @@
+services:
+  # 後端服務
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ycm-researcher-backend
+    restart: always
+    ports:
+      - "8000:8000"
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - TAVILY_API_KEY=${TAVILY_API_KEY}
+      - LANGUAGE=chinese
+    volumes:
+      - ./outputs:/app/outputs
+      - ./logs:/app/logs
+      - ./my-docs:/app/my-docs
+    networks:
+      - ycm-network
+
+  # 前端服務
+  frontend:
+    build:
+      context: ./frontend/nextjs
+      dockerfile: Dockerfile
+    container_name: ycm-researcher-frontend
+    restart: always
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+    networks:
+      - ycm-network
+
+networks:
+  ycm-network:
+    driver: bridge

@@ -341,3 +341,743 @@ Title: Explore | alphaXiv
 2025-04-08 00:20:14,279 - research - INFO - Research completed. Context size: 11729
 2025-04-08 00:20:15,625 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 2025-04-08 00:20:43,483 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-08 00:32:24,572 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-08 00:32:24,721 - research - INFO - Starting research for query: 學術概念解析：黑霉菌的2020年後的研究論文
+2025-04-08 00:32:24,722 - research - INFO - Using web search
+2025-04-08 00:32:24,722 - research - INFO - Starting web search for query: 學術概念解析：黑霉菌的2020年後的研究論文
+2025-04-08 00:32:24,722 - research - INFO - Planning research for query: 學術概念解析：黑霉菌的2020年後的研究論文
+2025-04-08 00:32:27,193 - research - INFO - Initial search results obtained: 10 results
+2025-04-08 00:32:54,650 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-08 00:32:54,654 - research - INFO - Research outline planned: ['黑霉菌 2020以後 研究論文 學術概念解析', '黑霉菌 多組學 轉錄組 基因組 分析 論文 2020', '黑霉菌 固態發酵 工業應用與產酶機制 研究論文 2020以後']
+2025-04-08 00:32:54,654 - research - INFO - Generated sub-queries: ['黑霉菌 2020以後 研究論文 學術概念解析', '黑霉菌 多組學 轉錄組 基因組 分析 論文 2020', '黑霉菌 固態發酵 工業應用與產酶機制 研究論文 2020以後']
+2025-04-08 00:32:56,960 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 00:32:56,960 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 00:32:56,960 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 00:32:56,961 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 00:32:56,961 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 00:32:57,090 - gpt_researcher.scraper.scraper - INFO - 
+=== Using PyMuPDFScraper ===
+2025-04-08 00:32:57,090 - gpt_researcher.scraper.scraper - INFO - 
+=== Using PyMuPDFScraper ===
+2025-04-08 00:32:57,090 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 00:32:57,091 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 00:32:57,091 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 00:32:57,138 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 00:32:57,138 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 00:32:57,138 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 00:32:57,139 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 00:32:57,164 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 00:32:57,627 - gpt_researcher.scraper.scraper - WARNING - Content too short or empty for https://qikan.cqvip.com/Qikan/Article/Detail?id=667765446
+2025-04-08 00:32:57,627 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 00:32:57,707 - gpt_researcher.scraper.scraper - INFO - 
+Title: ä¸æ¹æ°æ®ç¥è¯æå¡å¹³å°
+2025-04-08 00:32:57,707 - gpt_researcher.scraper.scraper - INFO - Content length: 1696 characters
+2025-04-08 00:32:57,707 - gpt_researcher.scraper.scraper - INFO - Number of images: 10
+2025-04-08 00:32:57,707 - gpt_researcher.scraper.scraper - INFO - URL: https://d.wanfangdata.com.cn/periodical/zgnykjdb202009020
+2025-04-08 00:32:57,707 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 00:32:57,707 - gpt_researcher.scraper.scraper - INFO - 
+=== Using PyMuPDFScraper ===
+2025-04-08 00:32:57,850 - gpt_researcher.scraper.scraper - INFO - 
+Title: 黑曲霉及其应用研究进展 - 百度学术
+2025-04-08 00:32:57,850 - gpt_researcher.scraper.scraper - INFO - Content length: 953 characters
+2025-04-08 00:32:57,850 - gpt_researcher.scraper.scraper - INFO - Number of images: 3
+2025-04-08 00:32:57,850 - gpt_researcher.scraper.scraper - INFO - URL: https://xueshu.baidu.com/usercenter/paper/show?paperid=f98eee75331ce4ba4e8cd69c1d55219f&site=xueshu_se
+2025-04-08 00:32:57,850 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 00:32:58,030 - gpt_researcher.scraper.scraper - INFO - 
+Title: åºäºCRISPR/Casç³»ç»çé»æ²éåºå ç»ç¼è¾ææ¯
+2025-04-08 00:32:58,030 - gpt_researcher.scraper.scraper - INFO - Content length: 40090 characters
+2025-04-08 00:32:58,030 - gpt_researcher.scraper.scraper - INFO - Number of images: 10
+2025-04-08 00:32:58,030 - gpt_researcher.scraper.scraper - INFO - URL: https://cjb.ijournals.cn/html/cjbcn/2021/3/gc21030980.htm
+2025-04-08 00:32:58,030 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 00:32:58,730 - gpt_researcher.scraper.scraper - INFO - 
+Title: 
+2025-04-08 00:32:58,730 - gpt_researcher.scraper.scraper - INFO - Content length: 248 characters
+2025-04-08 00:32:58,730 - gpt_researcher.scraper.scraper - INFO - Number of images: 0
+2025-04-08 00:32:58,730 - gpt_researcher.scraper.scraper - INFO - URL: https://cjb.ijournals.cn/cjbcn/article/pdf/gc16081010
+2025-04-08 00:32:58,731 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 00:32:58,930 - gpt_researcher.scraper.scraper - INFO - 
+Title: J-STAGE トップ
+2025-04-08 00:32:58,930 - gpt_researcher.scraper.scraper - INFO - Content length: 3742 characters
+2025-04-08 00:32:58,930 - gpt_researcher.scraper.scraper - INFO - Number of images: 10
+2025-04-08 00:32:58,930 - gpt_researcher.scraper.scraper - INFO - URL: https://www.jstage.jst.go.jp/browse/-char/ja/
+2025-04-08 00:32:58,930 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 00:32:58,957 - gpt_researcher.scraper.scraper - INFO - 
+Title: Google 學術搜尋
+2025-04-08 00:32:58,957 - gpt_researcher.scraper.scraper - INFO - Content length: 777 characters
+2025-04-08 00:32:58,957 - gpt_researcher.scraper.scraper - INFO - Number of images: 1
+2025-04-08 00:32:58,957 - gpt_researcher.scraper.scraper - INFO - URL: https://scholar.google.com.tw/?hl=zh-TW
+2025-04-08 00:32:58,957 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 00:32:59,743 - gpt_researcher.scraper.scraper - WARNING - Content too short or empty for https://www.x-mol.com/paper/1304096968526761984/t?adv
+2025-04-08 00:33:00,196 - gpt_researcher.scraper.scraper - WARNING - Content too short or empty for https://www.x-mol.com/paper/1814506621426536448/t?adv
+2025-04-08 00:33:00,275 - gpt_researcher.scraper.scraper - WARNING - Content too short or empty for https://www.x-mol.com/paper/1235612859845296128/t?adv
+2025-04-08 00:33:00,277 - gpt_researcher.scraper.scraper - WARNING - Content too short or empty for https://www.x-mol.com/paper/1441532177654018048/t?adv
+2025-04-08 00:33:00,630 - gpt_researcher.scraper.scraper - WARNING - Content too short or empty for https://www.x-mol.com/paper/1212918388261462016/t?adv
+2025-04-08 00:33:00,632 - research - INFO - Scraped data size: 1
+2025-04-08 00:33:00,700 - gpt_researcher.scraper.scraper - WARNING - Content too short or empty for https://www.x-mol.com/paper/1213009174644068358/t?recommendPaper=1258516719547383808
+2025-04-08 00:33:01,448 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-08 00:33:03,003 - gpt_researcher.scraper.scraper - WARNING - Content too short or empty for https://www.x-mol.com/paper/1415191989277888512/t?adv
+2025-04-08 00:33:03,005 - research - INFO - Scraped data size: 1
+2025-04-08 00:33:03,190 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-08 00:33:03,195 - research - INFO - Content found for sub-query: 0 chars
+2025-04-08 00:33:03,423 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-08 00:33:04,283 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-08 00:33:04,285 - research - INFO - Content found for sub-query: 1100 chars
+2025-04-08 00:33:05,719 - gpt_researcher.scraper.scraper - INFO - 
+Title: 
+2025-04-08 00:33:05,719 - gpt_researcher.scraper.scraper - INFO - Content length: 1361 characters
+2025-04-08 00:33:05,719 - gpt_researcher.scraper.scraper - INFO - Number of images: 0
+2025-04-08 00:33:05,719 - gpt_researcher.scraper.scraper - INFO - URL: https://www.spgykj.com/cn/article/pdf/preview/10.13386/j.issn1002-0306.2020120017.pdf
+2025-04-08 00:33:05,719 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 00:33:05,721 - research - INFO - Scraped data size: 3
+2025-04-08 00:33:06,287 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-08 00:33:06,896 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-08 00:33:06,897 - research - INFO - Content found for sub-query: 1672 chars
+2025-04-08 00:33:27,030 - gpt_researcher.scraper.scraper - INFO - 
+Title: 
+2025-04-08 00:33:27,030 - gpt_researcher.scraper.scraper - INFO - Content length: 1636 characters
+2025-04-08 00:33:27,030 - gpt_researcher.scraper.scraper - INFO - Number of images: 0
+2025-04-08 00:33:27,030 - gpt_researcher.scraper.scraper - INFO - URL: https://www.spgykj.com/cn/article/pdf/preview/10.13386/j.issn1002-0306.2023060014.pdf
+2025-04-08 00:33:27,030 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 00:33:53,089 - gpt_researcher.scraper.scraper - INFO - 
+Title: 标题
+2025-04-08 00:33:53,089 - gpt_researcher.scraper.scraper - INFO - Content length: 2441 characters
+2025-04-08 00:33:53,089 - gpt_researcher.scraper.scraper - INFO - Number of images: 0
+2025-04-08 00:33:53,089 - gpt_researcher.scraper.scraper - INFO - URL: http://sf1970.cnif.cn/fileup/0253-990X/PDF/0253-990X-2020-23-279.pdf
+2025-04-08 00:33:53,089 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 00:33:53,093 - research - INFO - Scraped data size: 4
+2025-04-08 00:33:55,506 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-08 00:33:56,469 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-08 00:33:56,473 - research - INFO - Content found for sub-query: 3958 chars
+2025-04-08 00:33:56,473 - research - INFO - Gathered context from 4 sub-queries
+2025-04-08 00:33:56,473 - research - INFO - Combined context size: 6732
+2025-04-08 00:33:56,475 - research - INFO - Research completed. Context size: 6732
+2025-04-08 00:33:57,393 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-08 00:34:31,968 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-08 09:03:49,636 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-08 09:03:52,453 - research - INFO - Starting research for query: 如果我要去韓國請幫我規劃五天的人文之旅
+2025-04-08 09:03:52,454 - research - INFO - Using web search
+2025-04-08 09:03:52,454 - research - INFO - Starting web search for query: 如果我要去韓國請幫我規劃五天的人文之旅
+2025-04-08 09:03:52,454 - research - INFO - Planning research for query: 如果我要去韓國請幫我規劃五天的人文之旅
+2025-04-08 09:03:59,913 - research - INFO - Initial search results obtained: 10 results
+2025-04-08 09:04:20,173 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-08 09:04:20,176 - research - INFO - Research outline planned: ['2025 韓國 五天人文之旅 行程規劃 與文化景點推薦', '如何規劃韓國五天人文之旅？首爾及其他城市文化行程攻略', '韓國文化旅行 5天自由行：歷史、人文景點與行程安排']
+2025-04-08 09:04:20,176 - research - INFO - Generated sub-queries: ['2025 韓國 五天人文之旅 行程規劃 與文化景點推薦', '如何規劃韓國五天人文之旅？首爾及其他城市文化行程攻略', '韓國文化旅行 5天自由行：歷史、人文景點與行程安排']
+2025-04-08 09:04:28,235 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 09:04:28,236 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 09:04:28,236 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 09:04:28,236 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 09:04:28,238 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 09:04:28,442 - gpt_researcher.scraper.scraper - INFO - 
+Title: 2025首爾自由行攻略》韓國首爾5天4夜行程規劃+花費、景點美食推薦 @Alina 愛琳娜
+2025-04-08 09:04:28,442 - gpt_researcher.scraper.scraper - INFO - Content length: 12521 characters
+2025-04-08 09:04:28,442 - gpt_researcher.scraper.scraper - INFO - Number of images: 10
+2025-04-08 09:04:28,442 - gpt_researcher.scraper.scraper - INFO - URL: https://alinalife.tw/seoulplane/
+2025-04-08 09:04:28,442 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 09:04:28,490 - gpt_researcher.scraper.scraper - INFO - 
+Title: 【首爾自由行】2025韓國5天4夜花費預算、最新景點行程規劃攻略
+2025-04-08 09:04:28,490 - gpt_researcher.scraper.scraper - INFO - Content length: 4190 characters
+2025-04-08 09:04:28,490 - gpt_researcher.scraper.scraper - INFO - Number of images: 10
+2025-04-08 09:04:28,490 - gpt_researcher.scraper.scraper - INFO - URL: https://ginatw.com/seoul-travel/
+2025-04-08 09:04:28,490 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 09:04:28,522 - gpt_researcher.scraper.scraper - INFO - 
+Title: ã2025éåé¦ç¾èªç±è¡ã5å¤©4å¤æ°ææéè¡ç¨æ»ç¥ï¼æ¯é»ãä½å®¿ãå¿åç¾é£ãéè¡å°å – ç¾å¥å­çå¾®æè¡
+2025-04-08 09:04:28,522 - gpt_researcher.scraper.scraper - INFO - Content length: 28200 characters
+2025-04-08 09:04:28,522 - gpt_researcher.scraper.scraper - INFO - Number of images: 10
+2025-04-08 09:04:28,522 - gpt_researcher.scraper.scraper - INFO - URL: https://minako.tw/seoul-guide/
+2025-04-08 09:04:28,522 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 09:04:28,890 - gpt_researcher.scraper.scraper - INFO - 
+Title: 2025首爾自由行｜五天四夜行程攻略，機票、住宿、景點、交通、實用app推薦 - Wander with Debbie
+2025-04-08 09:04:28,890 - gpt_researcher.scraper.scraper - INFO - Content length: 14634 characters
+2025-04-08 09:04:28,890 - gpt_researcher.scraper.scraper - INFO - Number of images: 10
+2025-04-08 09:04:28,890 - gpt_researcher.scraper.scraper - INFO - URL: https://debbiechien.com/seoul-travel/
+2025-04-08 09:04:28,890 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 09:04:29,497 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 09:04:29,497 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 09:04:29,497 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 09:04:29,498 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 09:04:29,704 - gpt_researcher.scraper.scraper - INFO - 
+Title: 【首爾自由行】2025 韓國自由行行程安排攻略：五天四夜路線規劃/預算花費/交通購物 | BringYou
+2025-04-08 09:04:29,704 - gpt_researcher.scraper.scraper - INFO - Content length: 16388 characters
+2025-04-08 09:04:29,704 - gpt_researcher.scraper.scraper - INFO - Number of images: 10
+2025-04-08 09:04:29,705 - gpt_researcher.scraper.scraper - INFO - URL: https://www.bring-you.info/zh-tw/seoul-travel-guide
+2025-04-08 09:04:29,705 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 09:04:29,706 - research - INFO - Scraped data size: 5
+2025-04-08 09:04:32,076 - gpt_researcher.scraper.scraper - INFO - 
+Title: 2025【釜山自由行攻略】5天4夜行程安排：交通、景點、美食一次搞定 — 生活好物｜精選吃喝玩樂．旅遊折扣與住宿優惠
+2025-04-08 09:04:32,076 - gpt_researcher.scraper.scraper - INFO - Content length: 3625 characters
+2025-04-08 09:04:32,076 - gpt_researcher.scraper.scraper - INFO - Number of images: 8
+2025-04-08 09:04:32,076 - gpt_researcher.scraper.scraper - INFO - URL: https://lifegoods.cc/busan/
+2025-04-08 09:04:32,076 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 09:04:32,076 - gpt_researcher.scraper.scraper - INFO - 
+Title: [韓國] 2024首爾自由行5天4夜｜行程總覽✈︎景福宮、青瓦台、弘大、明洞、樂天塔、望遠市場、善益洞 - Vera Hello
+2025-04-08 09:04:32,076 - gpt_researcher.scraper.scraper - INFO - Content length: 7066 characters
+2025-04-08 09:04:32,076 - gpt_researcher.scraper.scraper - INFO - Number of images: 10
+2025-04-08 09:04:32,076 - gpt_researcher.scraper.scraper - INFO - URL: https://verahello.com/seoul2024/
+2025-04-08 09:04:32,076 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 09:04:32,076 - gpt_researcher.scraper.scraper - INFO - 
+Title: 
+2025-04-08 09:04:32,076 - gpt_researcher.scraper.scraper - INFO - Content length: 1084 characters
+2025-04-08 09:04:32,076 - gpt_researcher.scraper.scraper - INFO - Number of images: 10
+2025-04-08 09:04:32,076 - gpt_researcher.scraper.scraper - INFO - URL: https://creatrip.com/zh-TW/blog/13087
+2025-04-08 09:04:32,076 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 09:04:32,076 - gpt_researcher.scraper.scraper - INFO - 
+Title: 漫遊韓國五天四夜！深度探索韓國文化與美景 | 韓國自由行新手教學網
+2025-04-08 09:04:32,076 - gpt_researcher.scraper.scraper - INFO - Content length: 2579 characters
+2025-04-08 09:04:32,076 - gpt_researcher.scraper.scraper - INFO - Number of images: 2
+2025-04-08 09:04:32,076 - gpt_researcher.scraper.scraper - INFO - URL: https://kr.17eat.com/1005/
+2025-04-08 09:04:32,076 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 09:04:32,080 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 09:04:32,081 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 09:04:32,083 - research - INFO - Scraped data size: 4
+2025-04-08 09:04:32,445 - gpt_researcher.scraper.scraper - INFO - 
+Title: 【2025首爾自由行】5天4夜韓國首爾行程這樣玩！景點美食＆交通花費全攻略 - 波比看世界
+2025-04-08 09:04:32,445 - gpt_researcher.scraper.scraper - INFO - Content length: 9055 characters
+2025-04-08 09:04:32,445 - gpt_researcher.scraper.scraper - INFO - Number of images: 10
+2025-04-08 09:04:32,445 - gpt_researcher.scraper.scraper - INFO - URL: https://bobbyworld.tw/2024-02-04-2868/
+2025-04-08 09:04:32,445 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 09:04:32,976 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-08 09:04:33,074 - gpt_researcher.scraper.scraper - INFO - 
+Title: 2025韓國自由行必看！韓國首爾5天4夜行程規劃＆景點推薦 - Holafly
+2025-04-08 09:04:33,074 - gpt_researcher.scraper.scraper - INFO - Content length: 14067 characters
+2025-04-08 09:04:33,074 - gpt_researcher.scraper.scraper - INFO - Number of images: 10
+2025-04-08 09:04:33,074 - gpt_researcher.scraper.scraper - INFO - URL: https://esim.holafly.com/zh/travel-tips/seoul-travel-guide/
+2025-04-08 09:04:33,074 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 09:04:33,077 - research - INFO - Scraped data size: 2
+2025-04-08 09:04:34,162 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-08 09:04:34,167 - research - INFO - Content found for sub-query: 10682 chars
+2025-04-08 09:04:35,140 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-08 09:04:35,985 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-08 09:04:36,381 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-08 09:04:36,383 - research - INFO - Content found for sub-query: 11101 chars
+2025-04-08 09:04:37,882 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 09:04:37,882 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 09:04:37,883 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 09:04:38,088 - gpt_researcher.scraper.scraper - INFO - 
+Title: 首爾自由行2025｜韓國首爾旅遊5天4夜花費、韓國旅遊景點攻略
+2025-04-08 09:04:38,088 - gpt_researcher.scraper.scraper - INFO - Content length: 26683 characters
+2025-04-08 09:04:38,089 - gpt_researcher.scraper.scraper - INFO - Number of images: 10
+2025-04-08 09:04:38,089 - gpt_researcher.scraper.scraper - INFO - URL: https://ginatw.com/korea-seoul-travel/
+2025-04-08 09:04:38,089 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 09:04:38,101 - gpt_researcher.scraper.scraper - INFO - 
+Title: 首爾自由行2025｜韓國首爾5天4夜花費景點行程
+2025-04-08 09:04:38,101 - gpt_researcher.scraper.scraper - INFO - Content length: 17295 characters
+2025-04-08 09:04:38,101 - gpt_researcher.scraper.scraper - INFO - Number of images: 10
+2025-04-08 09:04:38,101 - gpt_researcher.scraper.scraper - INFO - URL: https://ginatw.com/seoul/
+2025-04-08 09:04:38,101 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 09:04:38,317 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-08 09:04:38,322 - research - INFO - Content found for sub-query: 11000 chars
+2025-04-08 09:04:39,572 - gpt_researcher.scraper.scraper - INFO - 
+Title: 韓國自由行心得｜首爾5天4夜行程攻略與費用2023 - Turadise.
+2025-04-08 09:04:39,572 - gpt_researcher.scraper.scraper - INFO - Content length: 9093 characters
+2025-04-08 09:04:39,572 - gpt_researcher.scraper.scraper - INFO - Number of images: 10
+2025-04-08 09:04:39,572 - gpt_researcher.scraper.scraper - INFO - URL: https://turadise.com/korea-seoul-5days/
+2025-04-08 09:04:39,572 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 09:04:39,575 - research - INFO - Scraped data size: 3
+2025-04-08 09:04:41,670 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-08 09:04:42,763 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-08 09:04:42,766 - research - INFO - Content found for sub-query: 10799 chars
+2025-04-08 09:04:42,767 - research - INFO - Gathered context from 4 sub-queries
+2025-04-08 09:04:42,767 - research - INFO - Combined context size: 43585
+2025-04-08 09:04:42,768 - research - INFO - Research completed. Context size: 43585
+2025-04-08 09:04:46,145 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-08 09:05:12,052 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-08 10:30:16,254 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-08 10:30:16,400 - research - INFO - Starting research for query: 搜尋黑黴菌
+2025-04-08 10:30:16,401 - research - INFO - Using web search
+2025-04-08 10:30:16,401 - research - INFO - Starting web search for query: 搜尋黑黴菌
+2025-04-08 10:30:16,401 - research - INFO - Planning research for query: 搜尋黑黴菌
+2025-04-08 10:30:21,265 - research - INFO - Initial search results obtained: 10 results
+2025-04-08 10:30:39,658 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-08 10:30:39,661 - research - INFO - Research outline planned: ['黑黴菌 真菌分類、生態環境與最新研究 2025', '黑黴菌 健康風險與居家預防及清除方法 客觀評析', '黑黴菌 工業應用與食品發酵安全標準 實證研究']
+2025-04-08 10:30:39,662 - research - INFO - Generated sub-queries: ['黑黴菌 真菌分類、生態環境與最新研究 2025', '黑黴菌 健康風險與居家預防及清除方法 客觀評析', '黑黴菌 工業應用與食品發酵安全標準 實證研究']
+2025-04-08 10:30:42,252 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 10:30:42,253 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 10:30:42,253 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 10:30:42,253 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 10:30:42,254 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 10:30:42,872 - gpt_researcher.scraper.scraper - INFO - 
+Title: 黴菌介紹》種類、生長條件與作用 | 振泰檢驗JTS
+2025-04-08 10:30:42,872 - gpt_researcher.scraper.scraper - INFO - Content length: 2879 characters
+2025-04-08 10:30:42,872 - gpt_researcher.scraper.scraper - INFO - Number of images: 10
+2025-04-08 10:30:42,872 - gpt_researcher.scraper.scraper - INFO - URL: https://www.stst.com.tw/class/id=1176
+2025-04-08 10:30:42,872 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 10:30:43,062 - gpt_researcher.scraper.scraper - INFO - 
+Title: ¿ªÆôÐÂÆªÕÂ£ºÍÆ¶¯Ö²ÎïÓëÕæ¾ú·ÖÀàÑ§ÑÐ¾¿ÐÂÕ÷³Ì - ÉúÎïÍ¨
+2025-04-08 10:30:43,062 - gpt_researcher.scraper.scraper - INFO - Content length: 3497 characters
+2025-04-08 10:30:43,062 - gpt_researcher.scraper.scraper - INFO - Number of images: 4
+2025-04-08 10:30:43,062 - gpt_researcher.scraper.scraper - INFO - URL: https://www.ebiotrade.com/newsf//2025-3/20250312053033707.htm
+2025-04-08 10:30:43,062 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 10:30:43,210 - gpt_researcher.scraper.scraper - INFO - 
+Title: 黴菌 – 生態 ∫環境 ∫文化 
+2025-04-08 10:30:43,210 - gpt_researcher.scraper.scraper - INFO - Content length: 2226 characters
+2025-04-08 10:30:43,210 - gpt_researcher.scraper.scraper - INFO - Number of images: 0
+2025-04-08 10:30:43,210 - gpt_researcher.scraper.scraper - INFO - URL: https://nec.roster.tw/2024/12/22/mildew/
+2025-04-08 10:30:43,210 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 10:30:43,578 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 10:30:43,578 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 10:30:43,578 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 10:30:43,578 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 10:30:43,579 - gpt_researcher.scraper.scraper - INFO - 
+=== Using PyMuPDFScraper ===
+2025-04-08 10:30:43,758 - gpt_researcher.scraper.scraper - INFO - 
+Title: 黑黴菌是哪一界？ - Tomo's Blog
+2025-04-08 10:30:43,758 - gpt_researcher.scraper.scraper - INFO - Content length: 3363 characters
+2025-04-08 10:30:43,758 - gpt_researcher.scraper.scraper - INFO - Number of images: 1
+2025-04-08 10:30:43,758 - gpt_researcher.scraper.scraper - INFO - URL: https://imarkettomo.cc/黑黴菌是哪一界？/
+2025-04-08 10:30:43,758 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 10:30:45,532 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 10:30:45,541 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 10:30:45,549 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 10:30:45,554 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 10:30:45,571 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 10:30:46,184 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 10:30:46,189 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 10:30:46,208 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 10:30:46,242 - gpt_researcher.scraper.scraper - WARNING - Content too short or empty for https://house.chinatimes.com/20250311002119-264401
+2025-04-08 10:30:47,478 - gpt_researcher.scraper.scraper - INFO - 
+Title: 
+    <br>推动生物多样性研究的前沿：揭示全球真菌的多样性、分布和保护,Annual Review of Environment and Resources - X-MOL
+
+2025-04-08 10:30:47,496 - gpt_researcher.scraper.scraper - INFO - Content length: 3558 characters
+2025-04-08 10:30:47,515 - gpt_researcher.scraper.scraper - INFO - Number of images: 10
+2025-04-08 10:30:47,515 - gpt_researcher.scraper.scraper - INFO - URL: https://www.x-mol.com/paper/1704286398163210240/t
+2025-04-08 10:30:47,515 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 10:30:48,084 - research - INFO - Scraped data size: 5
+2025-04-08 10:30:48,896 - gpt_researcher.scraper.scraper - INFO - 
+Title: 壹
+2025-04-08 10:30:48,902 - gpt_researcher.scraper.scraper - INFO - Content length: 113 characters
+2025-04-08 10:30:48,914 - gpt_researcher.scraper.scraper - INFO - Number of images: 0
+2025-04-08 10:30:48,915 - gpt_researcher.scraper.scraper - INFO - URL: https://www.mxeduc.org.tw/scienceaward/history/projectDoc/6th/doc/SA6-090_final.pdf
+2025-04-08 10:30:48,915 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 10:30:48,920 - gpt_researcher.scraper.scraper - INFO - 
+Title: 發布訂定「食品中微生物衛生標準」  - 中華穀類食品工業技術研究所
+2025-04-08 10:30:48,921 - gpt_researcher.scraper.scraper - INFO - Content length: 479 characters
+2025-04-08 10:30:48,921 - gpt_researcher.scraper.scraper - INFO - Number of images: 0
+2025-04-08 10:30:48,921 - gpt_researcher.scraper.scraper - INFO - URL: https://www.cgprdi.org.tw/Message/MessageView?itemid=1671&mid=1343
+2025-04-08 10:30:48,921 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 10:30:48,921 - gpt_researcher.scraper.scraper - INFO - 
+Title: é»é»´è - ç¿°æé²ç«¯å­¸é¢
+2025-04-08 10:30:48,921 - gpt_researcher.scraper.scraper - INFO - Content length: 1363 characters
+2025-04-08 10:30:48,921 - gpt_researcher.scraper.scraper - INFO - Number of images: 1
+2025-04-08 10:30:48,921 - gpt_researcher.scraper.scraper - INFO - URL: https://www.ehanlin.com.tw/app/keyword/國中/生物/黑黴菌.html
+2025-04-08 10:30:48,921 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 10:30:49,055 - gpt_researcher.scraper.scraper - INFO - 
+Title: 
+2025-04-08 10:30:49,055 - gpt_researcher.scraper.scraper - INFO - Content length: 377 characters
+2025-04-08 10:30:49,057 - gpt_researcher.scraper.scraper - INFO - Number of images: 0
+2025-04-08 10:30:49,057 - gpt_researcher.scraper.scraper - INFO - URL: https://report.ndc.gov.tw/ReportFront/PageSystem/reportFileDownload/C10803051/001
+2025-04-08 10:30:49,057 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 10:30:49,059 - gpt_researcher.scraper.scraper - INFO - 
+Title: 如何去除黑黴菌？ - Tomo's Blog
+2025-04-08 10:30:49,059 - gpt_researcher.scraper.scraper - INFO - Content length: 3148 characters
+2025-04-08 10:30:49,060 - gpt_researcher.scraper.scraper - INFO - Number of images: 1
+2025-04-08 10:30:49,061 - gpt_researcher.scraper.scraper - INFO - URL: https://imarkettomo.cc/如何去除黑黴菌？/
+2025-04-08 10:30:49,062 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 10:30:49,062 - gpt_researcher.scraper.scraper - INFO - 
+Title: 黑黴菌有毒嗎？ - Tomo's Blog
+2025-04-08 10:30:49,062 - gpt_researcher.scraper.scraper - INFO - Content length: 3536 characters
+2025-04-08 10:30:49,062 - gpt_researcher.scraper.scraper - INFO - Number of images: 1
+2025-04-08 10:30:49,062 - gpt_researcher.scraper.scraper - INFO - URL: https://imarkettomo.cc/黑黴菌有毒嗎？/
+2025-04-08 10:30:49,062 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 10:30:49,095 - gpt_researcher.scraper.scraper - INFO - 
+Title: 黑麴黴 - 維基百科，自由的百科全書
+2025-04-08 10:30:49,095 - gpt_researcher.scraper.scraper - INFO - Content length: 1298 characters
+2025-04-08 10:30:49,095 - gpt_researcher.scraper.scraper - INFO - Number of images: 0
+2025-04-08 10:30:49,095 - gpt_researcher.scraper.scraper - INFO - URL: https://zh.wikipedia.org/zh-tw/黑曲霉
+2025-04-08 10:30:49,095 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 10:30:49,111 - gpt_researcher.scraper.scraper - INFO - 
+Title: 如何去除牆上的黴菌？ 專家推薦用這一物 | 牆壁 | 健康 | 黑黴菌 | 大紀元
+2025-04-08 10:30:49,112 - gpt_researcher.scraper.scraper - INFO - Content length: 2382 characters
+2025-04-08 10:30:49,112 - gpt_researcher.scraper.scraper - INFO - Number of images: 6
+2025-04-08 10:30:49,112 - gpt_researcher.scraper.scraper - INFO - URL: https://www.epochtimes.com/b5/24/11/10/n14368025.htm
+2025-04-08 10:30:49,112 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 10:30:49,137 - gpt_researcher.scraper.scraper - INFO - 
+Title: 菌菌發酵顯威！黑麴菌、溶脂念珠菌掀起飲料工業的二次革命 @ 食力foodNEXT‧食事求實的知識頻道
+2025-04-08 10:30:49,137 - gpt_researcher.scraper.scraper - INFO - Content length: 3863 characters
+2025-04-08 10:30:49,137 - gpt_researcher.scraper.scraper - INFO - Number of images: 6
+2025-04-08 10:30:49,137 - gpt_researcher.scraper.scraper - INFO - URL: https://www.foodnext.net/science/machining/paper/5098275823
+2025-04-08 10:30:49,137 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 10:30:49,146 - research - INFO - Scraped data size: 5
+2025-04-08 10:30:49,176 - gpt_researcher.scraper.scraper - INFO - 
+Title: 黴菌 - 維基百科，自由的百科全書
+2025-04-08 10:30:49,176 - gpt_researcher.scraper.scraper - INFO - Content length: 2017 characters
+2025-04-08 10:30:49,176 - gpt_researcher.scraper.scraper - INFO - Number of images: 0
+2025-04-08 10:30:49,176 - gpt_researcher.scraper.scraper - INFO - URL: https://zh.wikipedia.org/zh-tw/黴菌
+2025-04-08 10:30:49,176 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 10:30:49,234 - gpt_researcher.scraper.scraper - INFO - 
+Title: 食物發霉切掉照吃？家中暗藏５種黴菌 跑進身體毒害你
+2025-04-08 10:30:49,234 - gpt_researcher.scraper.scraper - INFO - Content length: 2747 characters
+2025-04-08 10:30:49,234 - gpt_researcher.scraper.scraper - INFO - Number of images: 3
+2025-04-08 10:30:49,234 - gpt_researcher.scraper.scraper - INFO - URL: https://health.tvbs.com.tw/regimen/308710
+2025-04-08 10:30:49,234 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 10:30:49,238 - research - INFO - Scraped data size: 4
+2025-04-08 10:30:49,283 - gpt_researcher.scraper.scraper - INFO - 
+Title: 對真菌有許多疑問嗎？解答都放在這裡了！──《菇的呼風喚雨史》 - PanSci 泛科學
+2025-04-08 10:30:49,283 - gpt_researcher.scraper.scraper - INFO - Content length: 15413 characters
+2025-04-08 10:30:49,283 - gpt_researcher.scraper.scraper - INFO - Number of images: 10
+2025-04-08 10:30:49,283 - gpt_researcher.scraper.scraper - INFO - URL: https://pansci.asia/archives/150940
+2025-04-08 10:30:49,283 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 10:30:49,285 - research - INFO - Scraped data size: 3
+2025-04-08 10:30:50,294 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-08 10:30:50,484 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-08 10:30:51,022 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-08 10:30:51,026 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-08 10:30:51,524 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-08 10:30:51,529 - research - INFO - Content found for sub-query: 9947 chars
+2025-04-08 10:30:51,755 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-08 10:30:51,757 - research - INFO - Content found for sub-query: 8432 chars
+2025-04-08 10:30:51,959 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-08 10:30:51,960 - research - INFO - Content found for sub-query: 10323 chars
+2025-04-08 10:30:52,013 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-08 10:30:52,014 - research - INFO - Content found for sub-query: 6415 chars
+2025-04-08 10:30:52,015 - research - INFO - Gathered context from 4 sub-queries
+2025-04-08 10:30:52,015 - research - INFO - Combined context size: 35120
+2025-04-08 10:30:52,016 - research - INFO - Research completed. Context size: 35120
+2025-04-08 10:30:55,001 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-08 10:31:17,682 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-08 16:33:12,785 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-08 16:33:15,420 - research - INFO - Starting research for query: 中國醫學語言模型
+2025-04-08 16:33:15,421 - research - INFO - Using web search
+2025-04-08 16:33:15,421 - research - INFO - Starting web search for query: 中國醫學語言模型
+2025-04-08 16:33:15,421 - research - INFO - Planning research for query: 中國醫學語言模型
+2025-04-08 16:33:19,534 - research - INFO - Initial search results obtained: 10 results
+2025-04-08 16:33:34,654 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-08 16:33:34,657 - research - INFO - Research outline planned: ['中國醫學語言模型 MedGPT 評論 現狀與應用 2025', '中國醫藥大學 MedLM 與 Google Cloud 合作 AI輔助醫師 專家見解', '開源醫學語言模型 MMedIns-Llama 3 與 GPT-4 臨床應用評測 比較報告']
+2025-04-08 16:33:34,657 - research - INFO - Generated sub-queries: ['中國醫學語言模型 MedGPT 評論 現狀與應用 2025', '中國醫藥大學 MedLM 與 Google Cloud 合作 AI輔助醫師 專家見解', '開源醫學語言模型 MMedIns-Llama 3 與 GPT-4 臨床應用評測 比較報告']
+2025-04-08 16:33:36,702 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 16:33:36,702 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 16:33:36,703 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 16:33:36,703 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 16:33:36,704 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 16:33:36,768 - gpt_researcher.scraper.scraper - WARNING - Content too short or empty for https://www.ctee.com.tw/news/20231215700682-430504
+2025-04-08 16:33:36,793 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 16:33:36,793 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 16:33:36,793 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 16:33:36,838 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 16:33:36,838 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 16:33:36,838 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 16:33:36,839 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 16:33:36,839 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 16:33:36,856 - gpt_researcher.scraper.scraper - INFO - 
+Title: 亞洲第一！中醫大附醫、Google Cloud合作　引進最新模型AI智慧醫療再升級 - 健康醫療網
+2025-04-08 16:33:36,857 - gpt_researcher.scraper.scraper - INFO - Content length: 2363 characters
+2025-04-08 16:33:36,857 - gpt_researcher.scraper.scraper - INFO - Number of images: 10
+2025-04-08 16:33:36,857 - gpt_researcher.scraper.scraper - INFO - URL: https://www.healthnews.com.tw/article/60270
+2025-04-08 16:33:36,857 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 16:33:36,884 - gpt_researcher.scraper.scraper - INFO - 
+Title: 「AI輔助醫師」幾秒內客製化癌症治療！中國附醫成Google Cloud亞洲首家合作醫院 | 健康遠見
+2025-04-08 16:33:36,884 - gpt_researcher.scraper.scraper - INFO - Content length: 1310 characters
+2025-04-08 16:33:36,884 - gpt_researcher.scraper.scraper - INFO - Number of images: 2
+2025-04-08 16:33:36,884 - gpt_researcher.scraper.scraper - INFO - URL: https://health.gvm.com.tw/article/108467
+2025-04-08 16:33:36,884 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 16:33:36,953 - gpt_researcher.scraper.scraper - INFO - 
+Title: 
+	中國附醫攜手Google Cloud  打造AI輔助醫師 | 生活 | 中央社 CNA
+
+2025-04-08 16:33:36,953 - gpt_researcher.scraper.scraper - INFO - Content length: 1720 characters
+2025-04-08 16:33:36,953 - gpt_researcher.scraper.scraper - INFO - Number of images: 2
+2025-04-08 16:33:36,953 - gpt_researcher.scraper.scraper - INFO - URL: https://www.cna.com.tw/news/ahel/202312150181.aspx
+2025-04-08 16:33:36,953 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 16:33:37,009 - gpt_researcher.scraper.scraper - INFO - 
+Title: 
+2025-04-08 16:33:37,009 - gpt_researcher.scraper.scraper - INFO - Content length: 100 characters
+2025-04-08 16:33:37,009 - gpt_researcher.scraper.scraper - INFO - Number of images: 0
+2025-04-08 16:33:37,009 - gpt_researcher.scraper.scraper - INFO - URL: https://www.zhihu.com/question/603275017
+2025-04-08 16:33:37,009 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 16:33:37,072 - gpt_researcher.scraper.scraper - INFO - 
+Title: 数智医疗 | 国内首个自研医疗大语言模型——MedGPT_医生_诊疗_数据
+2025-04-08 16:33:37,073 - gpt_researcher.scraper.scraper - INFO - Content length: 5324 characters
+2025-04-08 16:33:37,073 - gpt_researcher.scraper.scraper - INFO - Number of images: 5
+2025-04-08 16:33:37,073 - gpt_researcher.scraper.scraper - INFO - URL: https://www.sohu.com/a/752216224_121695294
+2025-04-08 16:33:37,073 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 16:33:37,075 - gpt_researcher.scraper.scraper - INFO - 
+Title: 
+2025-04-08 16:33:37,075 - gpt_researcher.scraper.scraper - INFO - Content length: 100 characters
+2025-04-08 16:33:37,075 - gpt_researcher.scraper.scraper - INFO - Number of images: 0
+2025-04-08 16:33:37,075 - gpt_researcher.scraper.scraper - INFO - URL: https://zhuanlan.zhihu.com/p/639719764
+2025-04-08 16:33:37,075 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 16:33:37,135 - gpt_researcher.scraper.scraper - INFO - 
+Title: 
+2025-04-08 16:33:37,135 - gpt_researcher.scraper.scraper - INFO - Content length: 100 characters
+2025-04-08 16:33:37,135 - gpt_researcher.scraper.scraper - INFO - Number of images: 0
+2025-04-08 16:33:37,135 - gpt_researcher.scraper.scraper - INFO - URL: https://zhuanlan.zhihu.com/p/17988250146
+2025-04-08 16:33:37,135 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 16:33:37,159 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 16:33:37,159 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 16:33:37,159 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 16:33:37,159 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 16:33:37,159 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 16:33:37,298 - gpt_researcher.scraper.scraper - INFO - 
+Title: 2024 年 6 月中文大模型排行：中國 AI 賽道升溫 - Leggie - AI and SEO trends, exploring the digital world
+2025-04-08 16:33:37,298 - gpt_researcher.scraper.scraper - INFO - Content length: 2937 characters
+2025-04-08 16:33:37,298 - gpt_researcher.scraper.scraper - INFO - Number of images: 0
+2025-04-08 16:33:37,298 - gpt_researcher.scraper.scraper - INFO - URL: https://leggie.co/2024年6月中文大模型排行-中國ai賽道升溫/
+2025-04-08 16:33:37,298 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 16:33:37,314 - gpt_researcher.scraper.scraper - INFO - 
+Title: 亞洲第一！中醫大附醫、Google Cloud合作 引進最新模型AI智慧醫療再升級
+2025-04-08 16:33:37,314 - gpt_researcher.scraper.scraper - INFO - Content length: 6565 characters
+2025-04-08 16:33:37,314 - gpt_researcher.scraper.scraper - INFO - Number of images: 10
+2025-04-08 16:33:37,314 - gpt_researcher.scraper.scraper - INFO - URL: https://tw.news.yahoo.com/亞洲第-中醫大附醫-google-cloud合作-引進最新模型ai智慧醫療再升級-040000605.html
+2025-04-08 16:33:37,314 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 16:33:37,316 - research - INFO - Scraped data size: 4
+2025-04-08 16:33:39,468 - gpt_researcher.scraper.scraper - INFO - 
+Title: Google的醫療AI模型，中醫大附醫被欽點率先導入！憑什麼當全亞洲第一家？|數位時代 BusinessNext
+2025-04-08 16:33:39,468 - gpt_researcher.scraper.scraper - INFO - Content length: 8215 characters
+2025-04-08 16:33:39,468 - gpt_researcher.scraper.scraper - INFO - Number of images: 10
+2025-04-08 16:33:39,468 - gpt_researcher.scraper.scraper - INFO - URL: https://www.bnext.com.tw/article/77814/google-googlecloud-ai-generativeai-model-medpalm2-medlm-cmuh
+2025-04-08 16:33:39,468 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 16:33:39,469 - gpt_researcher.scraper.scraper - INFO - 
+Title: 上交大团队发布大规模指令微调数据、开源模型与全面基准测试_临床_Med_任务
+2025-04-08 16:33:39,469 - gpt_researcher.scraper.scraper - INFO - Content length: 12459 characters
+2025-04-08 16:33:39,469 - gpt_researcher.scraper.scraper - INFO - Number of images: 10
+2025-04-08 16:33:39,469 - gpt_researcher.scraper.scraper - INFO - URL: https://www.sohu.com/a/806181513_121156425
+2025-04-08 16:33:39,469 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 16:33:39,469 - gpt_researcher.scraper.scraper - INFO - 
+Title: 醫療大語言模型MedGPT亮相 – 中國評論 - PressMega
+2025-04-08 16:33:39,469 - gpt_researcher.scraper.scraper - INFO - Content length: 1744 characters
+2025-04-08 16:33:39,469 - gpt_researcher.scraper.scraper - INFO - Number of images: 3
+2025-04-08 16:33:39,469 - gpt_researcher.scraper.scraper - INFO - URL: https://pressmega.com/醫療大語言模型medgpt亮相-中國評論/
+2025-04-08 16:33:39,469 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 16:33:39,470 - gpt_researcher.scraper.scraper - INFO - 
+Title: 医疗领域基准测试超越Llama 3、接近GPT-4，上海交大团队发布多语言医学大模型，覆盖6国语言 - 智源社区
+2025-04-08 16:33:39,470 - gpt_researcher.scraper.scraper - INFO - Content length: 4780 characters
+2025-04-08 16:33:39,470 - gpt_researcher.scraper.scraper - INFO - Number of images: 10
+2025-04-08 16:33:39,470 - gpt_researcher.scraper.scraper - INFO - URL: https://hub.baai.ac.cn/view/40514
+2025-04-08 16:33:39,470 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 16:33:39,470 - gpt_researcher.scraper.scraper - INFO - 
+Title: Nature Communications：MMedLM 多语言开源医疗大语言模型 - 上海交通大学人工智能学院
+2025-04-08 16:33:39,470 - gpt_researcher.scraper.scraper - INFO - Content length: 5423 characters
+2025-04-08 16:33:39,470 - gpt_researcher.scraper.scraper - INFO - Number of images: 10
+2025-04-08 16:33:39,470 - gpt_researcher.scraper.scraper - INFO - URL: https://soai.sjtu.edu.cn/cn/show/127
+2025-04-08 16:33:39,470 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 16:33:39,470 - gpt_researcher.scraper.scraper - INFO - 
+Title: 中醫大附醫導入Google最新醫療模型MedLM 打造「AI賦能醫師」-環球生技月刊
+2025-04-08 16:33:39,471 - gpt_researcher.scraper.scraper - INFO - Content length: 2100 characters
+2025-04-08 16:33:39,472 - gpt_researcher.scraper.scraper - INFO - Number of images: 10
+2025-04-08 16:33:39,472 - gpt_researcher.scraper.scraper - INFO - URL: https://news.gbimonthly.com/tw/article/show.php?num=63570
+2025-04-08 16:33:39,472 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 16:33:39,472 - gpt_researcher.scraper.scraper - INFO - 
+Title: Towards evaluating and building versatile large language models for medicine | npj Digital Medicine
+2025-04-08 16:33:39,472 - gpt_researcher.scraper.scraper - INFO - Content length: 63126 characters
+2025-04-08 16:33:39,472 - gpt_researcher.scraper.scraper - INFO - Number of images: 8
+2025-04-08 16:33:39,472 - gpt_researcher.scraper.scraper - INFO - URL: https://www.nature.com/articles/s41746-024-01390-4
+2025-04-08 16:33:39,472 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 16:33:39,502 - research - INFO - Scraped data size: 5
+2025-04-08 16:33:39,525 - research - INFO - Scraped data size: 3
+2025-04-08 16:33:39,536 - gpt_researcher.scraper.scraper - INFO - 
+Title: Towards building multilingual language model for medicine | Nature Communications
+2025-04-08 16:33:39,537 - gpt_researcher.scraper.scraper - INFO - Content length: 79381 characters
+2025-04-08 16:33:39,537 - gpt_researcher.scraper.scraper - INFO - Number of images: 10
+2025-04-08 16:33:39,537 - gpt_researcher.scraper.scraper - INFO - URL: https://www.nature.com/articles/s41467-024-52417-z
+2025-04-08 16:33:39,537 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 16:33:39,539 - research - INFO - Scraped data size: 5
+2025-04-08 16:33:40,256 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-08 16:33:40,525 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-08 16:33:40,692 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-08 16:33:41,226 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-08 16:33:41,355 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-08 16:33:41,461 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-08 16:33:41,464 - research - INFO - Content found for sub-query: 7421 chars
+2025-04-08 16:33:41,511 - research - INFO - Content found for sub-query: 9384 chars
+2025-04-08 16:33:41,522 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-08 16:33:41,524 - research - INFO - Content found for sub-query: 8424 chars
+2025-04-08 16:33:42,743 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-08 16:33:42,754 - research - INFO - Content found for sub-query: 10299 chars
+2025-04-08 16:33:42,755 - research - INFO - Gathered context from 4 sub-queries
+2025-04-08 16:33:42,755 - research - INFO - Combined context size: 35531
+2025-04-08 16:33:42,756 - research - INFO - Research completed. Context size: 35531
+2025-04-08 16:33:44,379 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-08 16:34:16,534 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-08 16:40:20,328 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-08 16:40:20,331 - research - INFO - Starting research for query: 學術文獻綜述：醫療語言模型
+2025-04-08 16:40:20,331 - research - INFO - Using web search
+2025-04-08 16:40:20,331 - research - INFO - Starting web search for query: 學術文獻綜述：醫療語言模型
+2025-04-08 16:40:20,332 - research - INFO - Planning research for query: 學術文獻綜述：醫療語言模型
+2025-04-08 16:40:22,830 - research - INFO - Initial search results obtained: 10 results
+2025-04-08 16:40:42,164 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-04-08 16:40:42,168 - research - INFO - Research outline planned: ['醫療語言模型 學術文獻綜述 原理、應用與挑戰 2024', '醫學大型語言模型 文獻回顧 國際研究趨勢與規範', '生成式AI在醫療領域 綜合評述：技術發展、應用案例與監管倫理']
+2025-04-08 16:40:42,168 - research - INFO - Generated sub-queries: ['醫療語言模型 學術文獻綜述 原理、應用與挑戰 2024', '醫學大型語言模型 文獻回顧 國際研究趨勢與規範', '生成式AI在醫療領域 綜合評述：技術發展、應用案例與監管倫理']
+2025-04-08 16:40:44,500 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 16:40:44,500 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 16:40:44,500 - gpt_researcher.scraper.scraper - INFO - 
+=== Using PyMuPDFScraper ===
+2025-04-08 16:40:44,501 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 16:40:44,501 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 16:40:44,529 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 16:40:44,529 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 16:40:44,529 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 16:40:44,530 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 16:40:44,531 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 16:40:44,552 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 16:40:44,553 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 16:40:44,576 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 16:40:44,576 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 16:40:44,577 - gpt_researcher.scraper.scraper - INFO - 
+=== Using BeautifulSoupScraper ===
+2025-04-08 16:40:44,659 - gpt_researcher.scraper.scraper - INFO - 
+Title: 大型語言模型的介紹與醫療應用 
+2025-04-08 16:40:44,659 - gpt_researcher.scraper.scraper - INFO - Content length: 2904 characters
+2025-04-08 16:40:44,659 - gpt_researcher.scraper.scraper - INFO - Number of images: 2
+2025-04-08 16:40:44,659 - gpt_researcher.scraper.scraper - INFO - URL: https://mdnews.web2.ncku.edu.tw/p/404-1174-212601.php?Lang=zh-tw
+2025-04-08 16:40:44,659 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 16:40:44,822 - gpt_researcher.scraper.scraper - INFO - 
+Title: 
+2025-04-08 16:40:44,822 - gpt_researcher.scraper.scraper - INFO - Content length: 100 characters
+2025-04-08 16:40:44,822 - gpt_researcher.scraper.scraper - INFO - Number of images: 0
+2025-04-08 16:40:44,822 - gpt_researcher.scraper.scraper - INFO - URL: https://zhuanlan.zhihu.com/p/678310490
+2025-04-08 16:40:44,822 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 16:40:44,922 - gpt_researcher.scraper.scraper - INFO - 
+Title: 由大型語言模型榜單看AI醫療：智慧醫療、醫病關係的未來趨勢 - 浚鴻數據開發 DKABio
+2025-04-08 16:40:44,922 - gpt_researcher.scraper.scraper - INFO - Content length: 19451 characters
+2025-04-08 16:40:44,922 - gpt_researcher.scraper.scraper - INFO - Number of images: 5
+2025-04-08 16:40:44,922 - gpt_researcher.scraper.scraper - INFO - URL: https://www.dkabio.com/zh-tw/knowledge/seminar/mon008
+2025-04-08 16:40:44,922 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 16:40:44,927 - gpt_researcher.scraper.scraper - INFO - 
+Title: 生成式AI於醫療領域之應用：規範與挑戰【月旦時論】,月旦醫事法網
+2025-04-08 16:40:44,927 - gpt_researcher.scraper.scraper - INFO - Content length: 2092 characters
+2025-04-08 16:40:44,927 - gpt_researcher.scraper.scraper - INFO - Number of images: 8
+2025-04-08 16:40:44,927 - gpt_researcher.scraper.scraper - INFO - URL: https://www.angle.com.tw/ahlr/journal/content.aspx?no=913063
+2025-04-08 16:40:44,927 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 16:40:44,954 - gpt_researcher.scraper.scraper - WARNING - Content too short or empty for https://inf.news/zh-hant/tech/81bcf847706dbe8f56ef0d8e5aaa8899.html
+2025-04-08 16:40:45,246 - gpt_researcher.scraper.scraper - INFO - 
+Title: 大型語言模型醫學應用之倫理挑戰與監理 = Ethical Challenges and Governance Regulations of Large Language Models in Medical Applications｜Airiti Library 華藝線上圖書館
+2025-04-08 16:40:45,246 - gpt_researcher.scraper.scraper - INFO - Content length: 1566 characters
+2025-04-08 16:40:45,246 - gpt_researcher.scraper.scraper - INFO - Number of images: 1
+2025-04-08 16:40:45,246 - gpt_researcher.scraper.scraper - INFO - URL: https://www.airitilibrary.com/Article/Detail/10281916-N202501140005-00011
+2025-04-08 16:40:45,246 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 16:40:45,273 - gpt_researcher.scraper.scraper - INFO - 
+Title: 生成式人工智慧在醫療領域的應用現況與未來發展|數位醫療與智慧科技應用|生技醫療|產業焦點|產科國際所【IEK產業情報網】
+2025-04-08 16:40:45,274 - gpt_researcher.scraper.scraper - INFO - Content length: 2247 characters
+2025-04-08 16:40:45,274 - gpt_researcher.scraper.scraper - INFO - Number of images: 0
+2025-04-08 16:40:45,274 - gpt_researcher.scraper.scraper - INFO - URL: https://ieknet.iek.org.tw/iekrpt/rpt_more.aspx?rpt_idno=576680215
+2025-04-08 16:40:45,275 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 16:40:45,284 - gpt_researcher.scraper.scraper - INFO - 
+Title: 中大與東南亞及英國學府共同研究 為大型語言模型在公共衞生研究中的角色帶來嶄新見解
+2025-04-08 16:40:45,284 - gpt_researcher.scraper.scraper - INFO - Content length: 6858 characters
+2025-04-08 16:40:45,284 - gpt_researcher.scraper.scraper - INFO - Number of images: 10
+2025-04-08 16:40:45,284 - gpt_researcher.scraper.scraper - INFO - URL: https://www.med.cuhk.edu.hk/tc/press-releases/cuhk-s-collaborative-studies-with-institutes-in-southeast-asia-and-the-uk-offer-new-insights-into-the-roles-of-large-language-models-in-public-health-research
+2025-04-08 16:40:45,284 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 16:40:45,295 - gpt_researcher.scraper.scraper - INFO - 
+Title: 生成式 AI 正如何在全球各醫療場域 提升醫護工作效率與照護品質？
+2025-04-08 16:40:45,295 - gpt_researcher.scraper.scraper - INFO - Content length: 7097 characters
+2025-04-08 16:40:45,295 - gpt_researcher.scraper.scraper - INFO - Number of images: 10
+2025-04-08 16:40:45,295 - gpt_researcher.scraper.scraper - INFO - URL: https://tw.news.yahoo.com/生成式-ai-正如何在全球各醫療場域-提升醫護工作效率與照護品質-093309085.html
+2025-04-08 16:40:45,295 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 16:40:45,451 - gpt_researcher.scraper.scraper - ERROR - Error processing https://wwwndmc.ndmctsgh.edu.tw/files/web/192/file_up/100003/12896/醫學科技新知-ChatGPT於醫學教育的應用+(1).pdf: cannot unpack non-iterable NoneType object
+2025-04-08 16:40:45,453 - research - INFO - Scraped data size: 3
+2025-04-08 16:40:46,164 - gpt_researcher.scraper.scraper - INFO - 
+Title: 大型多模態模型(LMMs)於醫療領域之應用與風險 | Hugo的科學與信仰之旅
+2025-04-08 16:40:46,165 - gpt_researcher.scraper.scraper - INFO - Content length: 8258 characters
+2025-04-08 16:40:46,165 - gpt_researcher.scraper.scraper - INFO - Number of images: 10
+2025-04-08 16:40:46,165 - gpt_researcher.scraper.scraper - INFO - URL: https://vocus.cc/article/67524d46fd897800016cf21f
+2025-04-08 16:40:46,165 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 16:40:46,175 - gpt_researcher.scraper.scraper - INFO - 
+Title: 未来医疗：大语言模型如何改变临床实践、研究和教育｜文献精析·24-10-23-CSDN博客
+2025-04-08 16:40:46,175 - gpt_researcher.scraper.scraper - INFO - Content length: 7249 characters
+2025-04-08 16:40:46,175 - gpt_researcher.scraper.scraper - INFO - Number of images: 10
+2025-04-08 16:40:46,176 - gpt_researcher.scraper.scraper - INFO - URL: https://blog.csdn.net/qq_45404805/article/details/143176101
+2025-04-08 16:40:46,176 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 16:40:46,178 - research - INFO - Scraped data size: 2
+2025-04-08 16:40:46,243 - gpt_researcher.scraper.scraper - INFO - 
+Title: 基於大型語言模型微調的醫療問答系統分析與研究 = A Study and Analysis of Medical Question Answering Systems based on Fine-Tuned Large Language Models｜Airiti Library 華藝線上圖書館
+2025-04-08 16:40:46,243 - gpt_researcher.scraper.scraper - INFO - Content length: 6937 characters
+2025-04-08 16:40:46,243 - gpt_researcher.scraper.scraper - INFO - Number of images: 1
+2025-04-08 16:40:46,243 - gpt_researcher.scraper.scraper - INFO - URL: https://www.airitilibrary.com/Article/Detail/U0002-1802202410543000
+2025-04-08 16:40:46,243 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 16:40:46,245 - research - INFO - Scraped data size: 3
+2025-04-08 16:40:46,536 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-08 16:40:47,362 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-08 16:40:47,382 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-08 16:40:47,384 - research - INFO - Content found for sub-query: 10903 chars
+2025-04-08 16:40:47,455 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-08 16:40:47,767 - gpt_researcher.scraper.scraper - INFO - 
+Title: 使用生成式 AI 轉變醫療保健：主要優勢和應用 | 夏普
+2025-04-08 16:40:47,767 - gpt_researcher.scraper.scraper - INFO - Content length: 2008 characters
+2025-04-08 16:40:47,767 - gpt_researcher.scraper.scraper - INFO - Number of images: 7
+2025-04-08 16:40:47,768 - gpt_researcher.scraper.scraper - INFO - URL: https://zh-tw.shaip.com/blog/transforming-healthcare-with-generative-ai-key-benefits-applications/
+2025-04-08 16:40:47,768 - gpt_researcher.scraper.scraper - INFO - ==================================================
+2025-04-08 16:40:48,102 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-08 16:40:48,103 - research - INFO - Content found for sub-query: 9599 chars
+2025-04-08 16:40:48,121 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-08 16:40:48,122 - research - INFO - Content found for sub-query: 10561 chars
+2025-04-08 16:40:48,593 - gpt_researcher.scraper.scraper - WARNING - Content too short or empty for https://scitechvista.nat.gov.tw/Article/C000003/detail?ID=bfae4816-f4ee-4a5f-9d57-1fe964c65ad5
+2025-04-08 16:40:48,596 - research - INFO - Scraped data size: 4
+2025-04-08 16:40:49,331 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-04-08 16:40:49,537 - backend.server.server_utils - INFO - Task cancelled.
+2025-04-08 16:40:50,220 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
