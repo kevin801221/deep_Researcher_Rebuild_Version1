@@ -3,6 +3,7 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import Script from 'next/script';
+import Image from 'next/image';
 
 // 技術部分的組件
 interface TechSectionProps {
@@ -101,52 +102,12 @@ export default function TechPage() {
               <div className="my-8">
                 <h4 className="text-lg font-semibold mb-2">系統架構圖</h4>
                 <div className="border rounded-lg p-2 bg-white">
-                  <div className="mermaid">
-                    {`
-                    graph TD
-                      subgraph Frontend["前端 (NextJS)"]
-                        UI[用戶界面]
-                        StateMgmt[狀態管理]
-                        WSClient[WebSocket 客戶端]
-                      end
-                      
-                      subgraph Backend["後端 (FastAPI)"]
-                        API[REST API]
-                        WebSock[WebSocket 服務]
-                        ChatAgent[聊天代理]
-                        Research[研究流程管理]
-                        ReportGen[報告生成]
-                      end
-                      
-                      subgraph AILayer["AI 層"]
-                        LLM[大型語言模型]
-                        VStore[向量存儲]
-                        Embed[嵌入模型]
-                      end
-                      
-                      subgraph DataSources["數據源"]
-                        Web[網頁搜索]
-                        Files[本地文件]
-                      end
-                      
-                      UI --> StateMgmt
-                      StateMgmt --> WSClient
-                      WSClient <--> WebSock
-                      
-                      API --> Research
-                      WebSock --> ChatAgent
-                      WebSock --> Research
-                      Research --> ReportGen
-                      
-                      ChatAgent --> LLM
-                      Research --> LLM
-                      Research --> VStore
-                      ReportGen --> LLM
-                      
-                      VStore --> Embed
-                      Research --> Web
-                      Research --> Files
-                    `}
+                  <div className="relative w-full h-auto">
+                    <img 
+                      src="/tech/architecture_image/image.jpg" 
+                      alt="系統架構圖" 
+                      className="mx-auto w-full h-auto"
+                    />
                   </div>
                 </div>
               </div>
@@ -190,46 +151,12 @@ export default function TechPage() {
               <div className="my-8">
                 <h4 className="text-lg font-semibold mb-2">前端架構圖</h4>
                 <div className="border rounded-lg p-2 bg-white">
-                  <div className="mermaid">
-                    {`
-                    graph TD
-                      subgraph Frontend["前端架構"]
-                        NextApp[Next.js App]
-                        
-                        subgraph Components["組件層"]
-                          Hero[Hero 組件]
-                          Form[研究表單]
-                          Result[研究結果顯示]
-                          Sidebar[側邊欄]
-                          History[歷史記錄]
-                        end
-                        
-                        subgraph Hooks["鉤子層"]
-                          UseWS[WebSocket 鉤子]
-                          UseHistory[歷史記錄鉤子]
-                          UseAnalytics[分析鉤子]
-                        end
-                        
-                        subgraph Utils["工具層"]
-                          Format[格式化工具]
-                          Helpers[輔助函數]
-                          DataProc[數據處理]
-                        end
-                        
-                        NextApp --> Components
-                        Components --> Hooks
-                        Components --> Utils
-                        
-                        WebSocket[WebSocket 連接]
-                        API[REST API 請求]
-                        
-                        UseWS --> WebSocket
-                        UseHistory --> API
-                      end
-                      
-                      WebSocket --> Backend[後端服務]
-                      API --> Backend
-                    `}
+                  <div className="relative w-full h-auto">
+                    <img 
+                      src="/tech/architecture_image/image2.jpg" 
+                      alt="前端架構圖" 
+                      className="mx-auto w-full h-auto"
+                    />
                   </div>
                 </div>
               </div>
@@ -336,49 +263,12 @@ export default function TechPage() {
               <div className="my-8">
                 <h4 className="text-lg font-semibold mb-2">後端架構圖</h4>
                 <div className="border rounded-lg p-2 bg-white">
-                  <div className="mermaid">
-                    {`
-                    graph TD
-                      subgraph BackendServices["後端服務架構"]
-                        FastAPI[FastAPI 應用]
-                        
-                        subgraph ServerModules["服務器模組"]
-                          WSManager[WebSocket 管理器]
-                          ServerUtils[服務工具]
-                          Routes[API 路由]
-                          CustomAPI[自定義 API]
-                        end
-                        
-                        subgraph ResearchCore["研究核心"]
-                          GPTResearcher[GPT Researcher]
-                          ChatAgent[聊天代理]
-                          ReportGen[報告生成器]
-                          MediaProcessing[媒體處理]
-                        end
-                        
-                        subgraph AIComponents["AI 組件"]
-                          LangChain[LangChain 整合]
-                          Memory[記憶與向量存儲]
-                          Retrievers[檢索器]
-                          Agents[代理系統]
-                        end
-                        
-                        subgraph DataHandling["數據處理"]
-                          Document[文檔處理]
-                          Context[上下文壓縮]
-                          Embedding[嵌入處理]
-                        end
-                        
-                        FastAPI --> ServerModules
-                        FastAPI --> ResearchCore
-                        ResearchCore --> AIComponents
-                        ResearchCore --> DataHandling
-                      end
-                      
-                      Client[客戶端] --> FastAPI
-                      FastAPI --> ExternalAPIs[外部 API]
-                      ResearchCore --> ExternalAPIs
-                    `}
+                  <div className="relative w-full h-auto">
+                    <img 
+                      src="/tech/architecture_image/image3.jpg" 
+                      alt="後端架構圖" 
+                      className="mx-auto w-full h-auto"
+                    />
                   </div>
                 </div>
               </div>
@@ -539,30 +429,12 @@ export default function TechPage() {
               <div className="my-8">
                 <h4 className="text-lg font-semibold mb-2">研究流程圖</h4>
                 <div className="border rounded-lg p-2 bg-white">
-                  <div className="mermaid">
-                    {`
-                    graph TD
-                      Query[用戶查詢] --> Analysis[查詢分析]
-                      Analysis --> Planning[研究計劃制定]
-                      Planning --> QueryExpansion[查詢擴展]
-                      
-                      QueryExpansion --> Retrieval[信息檢索]
-                      Retrieval --> Scraping[網頁抓取]
-                      Scraping --> Filtering[信息過濾與篩選]
-                      
-                      Filtering --> Integration[信息整合]
-                      Integration --> Synthesis[知識合成]
-                      Synthesis --> StructureGen[報告結構生成]
-                      
-                      StructureGen --> ContentGen[內容生成]
-                      ContentGen --> Revision[審核與修訂]
-                      Revision --> FinalReport[最終報告]
-                      
-                      classDef start fill:#d4f1f9,stroke:#05728f;
-                      classDef end fill:#d4f9d4,stroke:#05728f;
-                      class Query start;
-                      class FinalReport end;
-                    `}
+                  <div className="relative w-full h-auto">
+                    <img 
+                      src="/tech/architecture_image/image5.jpg" 
+                      alt="研究流程圖" 
+                      className="mx-auto w-full h-auto"
+                    />
                   </div>
                 </div>
               </div>
@@ -688,41 +560,12 @@ export default function TechPage() {
               <div className="my-8">
                 <h4 className="text-lg font-semibold mb-2">AI 整合架構</h4>
                 <div className="border rounded-lg p-2 bg-white">
-                  <div className="mermaid">
-                    {`
-                    graph TD
-                      subgraph LLMLayer["LLM 層"]
-                        GPT[OpenAI GPT 模型]
-                        LangChain[LangChain 框架]
-                        Prompts[提示工程]
-                      end
-                      
-                      subgraph EmbeddingLayer["嵌入層"]
-                        Embedding[嵌入模型]
-                        VectorDB[向量數據庫]
-                        Retrieval[相關性檢索]
-                      end
-                      
-                      subgraph AgentLayer["代理層"]
-                        AgentFramework[代理框架]
-                        Reasoning[推理系統]
-                        Planning[規劃系統]
-                        Memory[記憶系統]
-                      end
-                      
-                      subgraph IntegrationLayer["整合層"]
-                        ChatAgent[聊天代理]
-                        Research[研究系統]
-                        RAG[檢索增強生成]
-                      end
-                      
-                      LLMLayer --> IntegrationLayer
-                      EmbeddingLayer --> IntegrationLayer
-                      AgentLayer --> IntegrationLayer
-                      
-                      classDef primary fill:#d4f1f9,stroke:#05728f;
-                      class GPT,Embedding,AgentFramework primary;
-                    `}
+                  <div className="relative w-full h-auto">
+                    <img 
+                      src="/tech/architecture_image/image6.jpg" 
+                      alt="AI 整合架構" 
+                      className="mx-auto w-full h-auto"
+                    />
                   </div>
                 </div>
               </div>
@@ -764,36 +607,13 @@ export default function TechPage() {
                 <div>
                   <h4 className="text-xl font-semibold text-blue-900 mb-2">代理系統設計</h4>
                   <div className="bg-white p-5 rounded-lg shadow">
-                    <div className="mermaid">
-                      {`
-                      flowchart LR
-                        subgraph AgentCollaboration["代理協作系統"]
-                          direction TB
-                          
-                          Controller[控制代理]
-                          
-                          subgraph Specialized["專業代理"]
-                            direction LR
-                            Researcher[研究代理]
-                            Writer[寫作代理]
-                            Critic[評論代理]
-                          end
-                          
-                          Controller <--> Specialized
-                        end
-                        
-                        User[用戶] --> Controller
-                        Controller --> Result[研究結果]
-                        
-                        classDef controller fill:#f9d4d4,stroke:#8f0505;
-                        classDef agents fill:#d4f1f9,stroke:#05728f;
-                        classDef external fill:#d4f9d4,stroke:#058f05;
-                        
-                        class Controller controller;
-                        class Researcher,Writer,Critic agents;
-                        class User,Result external;
-                      `}
-                    </div>
+                    <div className="relative w-full h-auto">
+                    <img 
+                      src="/tech/architecture_image/image7.jpg" 
+                      alt="代理協作系統" 
+                      className="mx-auto w-full h-auto"
+                    />
+                  </div>
                   </div>
                 </div>
                 
@@ -857,19 +677,7 @@ export default function TechPage() {
         </div>
       </div>
       
-      {/* Mermaid JS 整合 - 使用 Next.js Script 組件 */}
-      <Script
-        src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"
-        strategy="afterInteractive"
-        onLoad={() => {
-          window.mermaid.initialize({
-            startOnLoad: true,
-            theme: 'neutral',
-            securityLevel: 'loose',
-            fontFamily: '"Montserrat", sans-serif',
-          });
-        }}
-      />
+      {/* 已移除 Mermaid JS 整合，改為使用静態圖片 */}
     </div>
   );
 }
